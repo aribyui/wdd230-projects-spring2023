@@ -1,6 +1,6 @@
 body {
   max-width: 1600px; /* 1440px */
-  margin: auto;
+  margin: 0 auto;
   padding: 25px;
   font-family: 'Rubik', sans-serif; 
 }
