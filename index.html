@@ -1,27 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Assignment portal for Lizandro Arizpe in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Assignment portal for Lizandro Arizpe in WDD 230: Web Frontend Development at Brigham Young University - Idaho"
+    />
     <title>WDD 230</title>
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/format.css">    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <!-- normalize -->
+    <link rel="stylesheet" href="styles/normalize.css" />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <!-- media query-->
+    <link rel="stylesheet" href="styles/medium.css" />
   </head>
   <body>
     <header>
-      <img src="images/lizandroportrait.jpg" alt="A photo of Lizandro, he is shown smiling, he wears a black shirt">
+      <img
+        src="images/lizandroportrait.jpg"
+        alt="A photo of Lizandro, he is shown smiling, he wears a black shirt"
+      />
       <h1>Lizandro Arizpe</h1>
     </header>
     <main>
       <h2>WDD 230: Assignment Portal</h2>
-      <hr>
+      <hr />
       <ul>
-        <li>Lesson 01: <a href="https://codepen.io/aribyui/pen/xxyRWKj">W01 Activity: Applied JavaScript</a></li>
+        <li>
+          Lesson 01:
+          <a href="https://codepen.io/aribyui/pen/xxyRWKj"
+            >W01 Activity: Applied JavaScript</a
+          >
+        </li>
         <li>Lesson 02: <a href="">Title</a></li>
         <li>Lesson 03: <a href="">Title</a></li>
         <li>Lesson 04: <a href="">Title</a></li>
@@ -33,12 +54,18 @@
         <li>Lesson 10: <a href="">Title</a></li>
         <li>Lesson 11: <a href="">Title</a></li>
       </ul>
-      <hr>
-      <p id="reminder-message">Some lessons may need more than one activity/assignment link.</p>
+      <hr />
+      <p>
+        <small
+          >Some lessons may need more than one activity/assignment link.</small
+        >
+      </p>
     </main>
     <footer>
-        <p>&copy;<span id="year"></span> .:|:. Lizandro Arizpe .:|:. Monterrey</p>
-        <p id="last-updated-text">Last updated: <span id="last-modified"></span></p>
+      <p>&copy;<span id="year"></span> .:|:. Lizandro Arizpe .:|:. Monterrey</p>
+      <p id="last-updated-text">
+        Last updated: <span id="date-hour"></span>
+      </p>
     </footer>
     <script src="scripts/current-date.js"></script>
   </body>
