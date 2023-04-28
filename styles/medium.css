@@ -1,17 +1,46 @@
 @media only screen and (min-width: 32.5em) {
+  body {
+    padding: 10px;
+    margin: 0 auto;
+  }
   header {
-  display: flex; 
-  height: 250px; 
-}
+    display: flex;
+    border-radius: 15px;
+    height: 250px;
+    box-shadow: rgb(6, 76, 190) 0px 20px 30px -10px;
+  }
+  footer {
+    border-radius: 15px;
+    box-shadow: rgb(6, 76, 190) 0px 20px 30px -10px;
+  }
+
+  footer p {
+    font-size: 1.5rem;
+  }
   img {
     border-radius: 15px;
     margin: 30px;
   }
   h1 {
     display: flex;
+    align-items: center;
     font-size: 3.5rem;
+    color: white;
   }
   h2 {
-    font-size: 2rem;
+    text-align: left;
+    font-size: 2.1rem;
+    width: fit-content;
+    margin-top: 35px;
+    margin-left: 20px;
+  }
+  li {
+    font-size: 1.3rem;
+    line-height: 35px;
+  }
+  main p {
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: left;
   }
 }
