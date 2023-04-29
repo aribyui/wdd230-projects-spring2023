@@ -2,22 +2,22 @@
   body {
     padding: 10px;
     margin: 0 auto;
+    color:#002869;
+    font-family: 'Rubik', sans-serif;
   }
+  header, footer {
+    background-color: #002869; 
+  }
+
   header {
     display: flex;
+    flex-direction: row;
     border-radius: 15px;
     height: 250px;
     box-shadow: rgb(6, 76, 190) 0px 20px 30px -10px;
   }
-  footer {
-    border-radius: 15px;
-    box-shadow: rgb(6, 76, 190) 0px 20px 30px -10px;
-  }
-
-  footer p {
-    font-size: 1.5rem;
-  }
   img {
+    width: fit-content;
     border-radius: 15px;
     margin: 30px;
   }
@@ -42,5 +42,12 @@
     font-size: 1.2rem;
     font-style: italic;
     text-align: left;
+  }
+  footer {
+    border-radius: 15px;
+    box-shadow: rgb(6, 76, 190) 0px 20px 30px -10px;
+  }
+  footer p {
+    font-size: 1.5rem;
   }
 }
