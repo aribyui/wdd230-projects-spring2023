@@ -8,7 +8,6 @@
   header, footer {
     background-color: #002869; 
   }
-
   header {
     display: flex;
     flex-direction: row;
