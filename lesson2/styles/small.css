@@ -12,7 +12,7 @@ body {
 
 header {
   background-color: #0b1f31;
-  padding: 40px;
+  padding: 15px;
 }
 
 header h1, h2 {
@@ -40,21 +40,9 @@ main {
   grid-row: 1/2;border-radius: 10px 10px 0 0;
 }
 
-#website-1 img {
-  width: 100%;
-  display: block;
-  padding: 15px;
-}
-
 #website-2 {
   grid-column: 2/3;
   grid-row: 1/2;border-radius: 10px 10px 0 0;
-}
-
-#website-2 img {
-  width: 100%;
-  display: block;
-  padding: 15px;
 }
 
 #website-3 {
@@ -62,47 +50,48 @@ main {
   grid-row: 1/2;border-radius: 10px 10px 0 0;
 }
 
-#website-3 img {
+#website-1 img, #website-2 img, #website-3 img {
   width: 100%;
   display: block;
-  padding: 15px;
+  padding: 10px;
+  margin-top: 10px;
 }
 
-div {
+main div {
   margin: 20px;
   background-color: #eeeeee;
   border: 1px solid #adadad;
-  
 }
 
-div h3, p, a{
-  margin: 0 auto;
-  padding: 20px;
+main h3, p, a {
+  margin: 0 auto; 
+  padding: 18px;
   text-align: left;
 }
 
-div h3 {
+main h3 {
   background-color: #3a4958;
   color: white;
   border-radius: 10px 10px 0 0;
+  font-size: 1.6rem;
 }
 
-div p, a {
-  font-size: 1.2rem;
+main p, a {
+  font-size: 1.4rem;
 }
 
-div p {
+main p {
   color: #3a4958;  
   font-weight: bold;
 }
 
 footer {
   background-color: #0b1f31;
-  padding: 25px;
+  padding: 15px;
 }
 
 footer p {
   color: white;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
