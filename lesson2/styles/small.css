@@ -52,21 +52,22 @@ main h3 {
 }
 
 main p, a {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 main p {
   color: #3a4958;  
   font-weight: bold;
+  line-height: 30px;
 }
 
 footer {
   background-color: #0b1f31;
-  padding: 15px;
+  padding: 7px;
 }
 
 footer p {
   color: white;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
