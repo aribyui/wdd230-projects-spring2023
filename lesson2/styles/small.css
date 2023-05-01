@@ -1,13 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
-  /* border: 2px solid blue; */
-}
-
-body {
-  margin: 0 auto;
-  width: 1600px;
-  background-color: white;
+  /* border: 2px solid blue;  */
 }
 
 header {
@@ -20,6 +14,7 @@ header h1, h2 {
   padding: 5px;
   color: white;
   text-align: center;
+  line-height: 55px;
 }
 
 header h1 {
@@ -30,26 +25,6 @@ header h2 {
   font-size: 2rem;
 }
 
-main {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-#website-1 {
-  grid-column: 1/2;
-  grid-row: 1/2;border-radius: 10px 10px 0 0;
-}
-
-#website-2 {
-  grid-column: 2/3;
-  grid-row: 1/2;border-radius: 10px 10px 0 0;
-}
-
-#website-3 {
-  grid-column: 3/4;
-  grid-row: 1/2;border-radius: 10px 10px 0 0;
-}
-
 #website-1 img, #website-2 img, #website-3 img {
   width: 100%;
   display: block;
@@ -58,14 +33,14 @@ main {
 }
 
 main div {
-  margin: 20px;
+  margin: 15px;
   background-color: #eeeeee;
-  border: 1px solid #adadad;
+  border: 1px solid #adadad;border-radius: 10px 10px 0 0;
 }
 
 main h3, p, a {
   margin: 0 auto; 
-  padding: 18px;
+  padding: 12px;
   text-align: left;
 }
 
@@ -73,7 +48,7 @@ main h3 {
   background-color: #3a4958;
   color: white;
   border-radius: 10px 10px 0 0;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 main p, a {
@@ -87,7 +62,7 @@ main p {
 
 footer {
   background-color: #0b1f31;
-  padding: 10px;
+  padding: 15px;
 }
 
 footer p {
