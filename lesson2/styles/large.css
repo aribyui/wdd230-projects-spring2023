@@ -1,7 +1,7 @@
 @media only screen and (min-width: 65em) {  
   body {
     margin: 0 auto;
-    width: 1600px;
+    max-width: 1600px;
     background-color: white;
   }  
   header {
