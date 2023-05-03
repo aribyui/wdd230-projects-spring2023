@@ -3,4 +3,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  #website-3 {
+    grid-column: 1/4;
+    grid-row: 2/3;border-radius: 10px 10px 0 0;
+  } 
 }
