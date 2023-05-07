@@ -1,0 +1,15 @@
+@media only screen and (min-width: 32.5em) {
+  header h1 {
+    padding: 25px;
+  }
+  nav {
+    flex-direction: row;
+    justify-content: center;
+  }
+  nav a {
+    padding: 25px;
+  }
+  img {
+    width: 25%;
+  }
+}
