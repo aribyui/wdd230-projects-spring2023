@@ -62,12 +62,56 @@ main p, footer p {
   font-family: 'Roboto', Helvetica, sans-serif;
 }
 
-main h1, h2 {
+main h1, h2, h3 {
   font-family: 'Rubik', Helvetica, sans-serif;
 }
 
 img {
   width: 50%;
+}
+
+table {
+  width: 100%;
+  min-width: 350px;
+  margin: 30px auto;
+  text-align: center;
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+table th {
+  padding: 5px;
+}
+
+table td {
+  width: 25%; /* I don't know how exactly works */
+  height: 3em;
+}
+
+#primary {
+  background-color:#292F36;
+}
+
+#secondary {
+  background-color: #4ECDC4;
+}
+
+#accent-1 {
+  background-color: #FF6B6B;
+}
+
+#accent-2 {
+  background-color: white;
+  color: #292F36;
+}
+
+#colored-paragraph {
+  background-color: #292F36;
+  color: white;
+  padding: 15px;
+}
+
+#heading-typography {
+  font-family: 'Rubik', Helvetica, sans-serif;
 }
 
 footer div {
