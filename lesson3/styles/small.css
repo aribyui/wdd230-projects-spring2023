@@ -10,8 +10,15 @@ body {
   padding: 0;
 }
 
+p, li {
+  line-height: 29px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+}
+
 hr {
-  color: #292F36;
+  color:#4ECDC4;
+  border: 1.5px solid;
+  margin-top: 40px;
 }
 
 header {
@@ -58,10 +65,6 @@ main h1, h2, p {
   color: #292F36;
 }
 
-main p, footer p {
-  font-family: 'Roboto', Helvetica, sans-serif;
-}
-
 main h1, h2, h3 {
   font-family: 'Rubik', Helvetica, sans-serif;
 }
@@ -69,6 +72,48 @@ main h1, h2, h3 {
 img {
   width: 50%;
 }
+
+
+
+
+
+
+
+
+.persona { 
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.persona p {
+  color: white;
+}
+
+#persona-1 {
+  grid-column: 1/2;
+  background-color: #292F36;
+  padding: 25px;
+}
+
+#persona-2 {
+  grid-column:  2/3;
+  background-color: #292F36;
+  padding: 25px;
+}
+
+#scenarios {
+  text-align: left;
+}
+
+
+
+
+
+
+
+
 
 table {
   width: 100%;
