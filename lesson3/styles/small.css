@@ -10,7 +10,8 @@ body {
   padding: 0;
 }
 
-p, li {
+a, p, li {
+  font-size: 20px;
   line-height: 29px;
   font-family: 'Roboto', Helvetica, sans-serif;
 }
@@ -20,11 +21,7 @@ hr {
   border: 1.5px solid;
 }
 
-header {
-  background-color: #292F36;
-}
-
-footer {
+header, footer {
   background-color: #292F36;
 }
 
@@ -70,6 +67,8 @@ main h1, h2, h3 {
 
 img {
   width: 50%;
+  border-radius: 50%;
+  border: 7px solid #4ECDC4;
 }
 
 .persona { 
@@ -84,21 +83,19 @@ img {
 }
 
 .persona img {
+  border-radius: 50%;
   width: 50%;
+  border: 7px solid #4ECDC4;
 }
 
 #persona-1 {
-  grid-column: 1/2;
   background-color: #292F36;
-  padding: 40px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 30px; 
 }
 
 #persona-2 {
-  grid-column:  2/3;
   background-color: #292F36;
-  padding: 40px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;  
+  padding: 30px;  
 }
 
 #scenarios {
@@ -152,8 +149,8 @@ table td {
 }
 
 footer div {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 footer p, #date {

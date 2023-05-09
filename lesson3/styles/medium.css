@@ -12,7 +12,12 @@
   img {
     width: 25%;
   }
-  a, p, li {
+  a, p, li, th {
     font-size: 20px;
+    line-height: 29px;
+  }
+  .persona {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
