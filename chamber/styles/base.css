@@ -91,8 +91,6 @@ header {
   color: #FFFFFF;
 } 
 
-
-
 #header-foot { 
   background-color: #292f36;
   padding: 0px 10px 17px 10px;
@@ -112,6 +110,7 @@ main {
   margin: 18px 5px;
   font-size: 0.9em;
 }
+
 main > div {
   background-color: #eee;
   border: 1px solid #292f36;
@@ -137,12 +136,21 @@ section > div {
   padding: 15px 0 0 15px;
 }
 
+/* 
+temporary solution
+see line 56 and 57 at index.html file
+*/
+main section h1 {
+  display: none;
+}
+
 footer {
   background-color: #292f36;
   color: #ffffff;
   margin: 0 auto;
   text-align: center;
   padding: 10px;
+  line-height: 1.2em;
 }
 
 footer a > img {
@@ -167,22 +175,10 @@ footer address p {
   margin: 0 auto;
 }
 
+footer hr {  
+  border: 1px solid #4ECDC4;
+}
+
 #name {
   font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
