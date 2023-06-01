@@ -32,8 +32,8 @@ const year = d.getFullYear();
 const hour = d.getHours();
 const minutes = d.getMinutes();
 const seconds = d.getSeconds();
-const fulldate = `${dayName}, ${day} ${monthName} ${year}`;
+const fulldate = `<p>${dayName}, ${day} ${monthName} ${year}<p>`;
 
-document.querySelector(".current-date").textContent = fulldate;
-document.querySelector("#year").textContent = year;
-document.querySelector("#last-modification").textContent = `${day}/${month}/${year} ${hour}:${minutes}:${seconds}`;
+document.querySelector("#date").innerHTML = fulldate;
+
+document.getElementById("last-info").innerHTML = `<p>&copy;${year} Nuevo León Chamber | <span id="name">Lizandro Arizpe</span> | WDD 230 Project | Last Modification: ${day}/${month}/${year} ${hour}:${minutes}:${seconds}</p>`
