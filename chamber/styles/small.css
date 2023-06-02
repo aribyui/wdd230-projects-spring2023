@@ -47,7 +47,7 @@ header {
 
 .headings h1 {
   font-family: 'Roboto', Helvetica, sans-serif;
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: #FFFFFF;
   margin: 0;
 }
@@ -96,7 +96,7 @@ header {
 .navigation { 
   display: none;
   position: absolute;
-  top: 8.5em;
+  top: 7em;
   left: 0;  
   background-color: #292F36; 
   width: 100vw;  
