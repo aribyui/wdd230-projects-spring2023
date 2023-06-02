@@ -1,18 +1,15 @@
 @media only screen and (min-width: 65em) {
   .logo img {
-    width: 8em;
+    width: 7em;
     border: 4px solid #4ECDC4;
     margin-left: 1.5em;
   }
   .headings {
-    margin: .9em;
-  }
-  .headings h1 {
-    font-size: 2em;
-  }
+    margin-left: 1em;
+  }  
   .headings p {
     font-size: 1.2em;
-  }
+  } 
   .social {
     flex-direction: row-reverse;
     margin-right: 1.5em;
@@ -20,6 +17,9 @@
   .social img {
     height: 27px;
     margin-left: 1em;
+  }
+  .social-logos {
+   margin-right: 0;
   }
   #hamButton {
     display: none;
@@ -87,6 +87,7 @@
     grid-column: 3/4;
     grid-row: 1/4;
     padding: .9em;
+    display: block;
   }
   .spotlights > div{    
     height: 14.7em ;
@@ -107,30 +108,13 @@
     align-items: center;
   }
   #website-info img {
-    width: 9em;  
-    margin-right: .9em
-  }
-  #footer-headings h2 {
-    font-size: 1.5em;
-  }
-  #footer-headings p, #contact-info p {
-    font-size: 1.1em;
+    width: 9em; 
   }
   footer hr {
-    border: 1px solid #4ECDC4;
     margin-left: 20px;
     margin-right: 20px;
   }
   #last-details {
     font-size: 1em;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding-top: 8px;
-    word-spacing: 0.3em /* Espacio entre palabras: https://bit.ly/3W5VmC6 */
   }
-  #last-info #name {
-    font-weight: bold;
-  }  
 }

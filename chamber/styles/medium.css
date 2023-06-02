@@ -1,0 +1,104 @@
+@media only screen and (min-width: 32.5em) {
+  .logo img {
+    width: 4em;
+    border: 3px solid #4ECDC4;
+  }
+  .headings {
+    margin-left: .8em;
+  }  
+  .headings h1 {
+    font-size: 1.8em;
+  }
+  .headings p {
+    font-size: 1.1em;
+  } 
+  .social-logos {
+    margin-right: 5em;
+  }
+  .navigation {
+    top: 7.6em;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  main > div {
+    height: 13em;
+  }
+
+  #hero {
+    grid-column: 1/4;
+    grid-row: 1/2;
+  }
+  #news {
+    grid-column: 1/4;
+    grid-row: 2/3;
+  }
+  .spotlights {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .8em;
+  }
+  #join {
+    display: block;
+    grid-column: 1/4;
+    grid-row: 4/5;
+  }
+  #event {
+    grid-column: 1/3;
+    grid-row: 5/6;
+    margin-right: .5em;
+  }
+  #weather {
+    grid-column: 3/4;
+    grid-row: 5/6;
+  }
+  footer {
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #website-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+  }
+  #website-info {
+    display: flex;
+    align-items: center;
+  }
+  #website-info img {
+    width: 9em;  
+    margin-left: .9em;
+    margin-right: .9em;
+  }
+  #footer-headings h2 {
+    font-size: 1.5em;
+  }
+  #footer-headings p, #contact-info p {
+    font-size: 1.1em;
+  }
+  footer hr {
+    border: 1px solid #4ECDC4;
+  }
+  #contact-info {
+    margin-right: 4em;
+  }
+  #last-details {
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10em;
+    margin-right: 10em;    
+    text-align: center;
+    word-spacing: 0.3em; /* Espacio entre palabras: https://bit.ly/3W5VmC6 */
+  }
+  #last-info #name {
+    font-weight: bold;
+  }  
+}

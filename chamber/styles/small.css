@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* line-height: 1.4em; */
 }
 
 h1, h2, h3 {
@@ -125,10 +124,6 @@ header {
   margin: 2em;
 }
 
-/* .navigation li:hover {
-  background-color: #292F36;
-} */
-
 .navigation li a:hover {
   background-color: #4ECDC4;
   color: #292F36;
@@ -207,10 +202,13 @@ footer {
 
 footer hr {
   border: 1px solid #4ECDC4;
-  margin: .7em 0;
+  margin: 1em 0;
 }
 
 #last-details {  
   font-size: .8em;
   line-height: 1.4em;
+  margin-left: 5em;
+  margin-right: 5em;    
+  text-align: center;
 }
