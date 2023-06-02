@@ -20,12 +20,14 @@ body {
 }
 
 header {
+  background-color: #292F36;
+  padding: 0.6em 0.6em 1em 0.6em;  
+}
+
+.header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 0.6em 0.6em 1em 0.6em;
-  background-color: #292F36;
+  justify-content: space-between;  
 }
 
 .logo {
@@ -134,7 +136,6 @@ header {
 
 #current-date {
   background-color: #4ECDC4;
-  width: 100vw;
   text-align: center;
   margin-top: .5em;
   padding: .5em;
