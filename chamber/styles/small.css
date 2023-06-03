@@ -97,10 +97,10 @@ header {
 .navigation { 
   display: none;
   position: absolute;
-  top: 7em;
+  top: 6.5em;
   left: 0;  
   background-color: #292F36; 
-  width: 100vw;  
+  width: 100%;  
 }
 
 .navigation.open {
@@ -110,7 +110,6 @@ header {
 .navigation li {  
   list-style-type: none;
   text-align: center;
-  /* padding: 1.5em;  */
 }
 
 .navigation li a {
@@ -119,9 +118,9 @@ header {
   font-size: 1em;
   text-decoration: none;
   text-align: center;
-  color: #FFFFFF;
-  padding: 1em;
-  margin: 2em;
+  color: #FFFFFF;  
+  margin: 0.5em;
+  padding: 1em; /* aqui */
 }
 
 .navigation li a:hover {
