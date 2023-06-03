@@ -97,10 +97,11 @@ header {
 .navigation { 
   display: none;
   position: absolute;
-  top: 7em;
+  top: 6.6em;
   left: 0;  
   background-color: #292F36; 
   width: 100%;  
+  /* border: 1px solid red; */
 }
 
 .navigation.open {
