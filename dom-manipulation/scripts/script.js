@@ -22,4 +22,3 @@ addButton.addEventListener("click", function() {
   userInput.value = "";
   document.querySelector("input").focus();
 });
-
