@@ -1,7 +1,6 @@
 @media only screen and (min-width: 65em) {
   .logo img {
-    width: 7em;
-    border: 4px solid #4ECDC4;
+    width: 5em;
     margin-left: 1.5em;
   }
   .headings {
@@ -46,53 +45,74 @@
   } 
   main {
     display: grid;
-    grid-template-columns: 215px 1fr 260px; 
-    grid-template-rows: 240px 240px 240px;
-    gap: .5em;
-    margin: 20px 30px 20px 30px;
-    /* border: 1px solid red; */
+    grid-template-columns: 250px 1fr 280px; 
+    grid-template-rows: 200px 250px 200px;    
+    margin: 20px 50px 20px;
   }
-  main > div, .spotlights {
-    margin: 0;
-  }
-  #join, #spotlight-3 {
+  .hero h2 {     
+    top: 20px;
+    left: 30px;
+    font-size: 2em;
+  } 
+  .join, #spotlight-3 {
     display: block;
   }
-  #event {
+  .event {
     grid-column: 1/2;
-    grid-row: 1/2;
-    height: auto;
-    margin-right: 0;
+    grid-row: 1/2;    
+    margin-right: 0;    
   }
-  #weather {
+  .weather {
     grid-column: 1/2;
     grid-row: 2/3;
     height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
   }
-  #join {
+  .join {
     grid-column: 1/2;
-    grid-row: 3/4;
-    height: auto;
+    grid-row: 3/4;    
   }
-  #hero {
+  .hero {
     grid-column: 2/3;
     grid-row: 1/3;
     height: auto;
   }
-  #news {
+  .news {
     grid-column: 2/3;
-    grid-row: 3/4;
-    height: auto;
+    grid-row: 3/4;       
   }
   .spotlights {
     grid-column: 3/4;
     grid-row: 1/4;
-    padding: .9em;
+    
     display: block;
+    
   }
-  .spotlights > div{    
-    height: 14.7em ;
+  .spotlights > div {    
+    height: 13.5em;
   }
+  .weather {
+    padding: 1em;
+  } 
+  .news {
+    padding: 1em;
+  }   
+  #spotlight-3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+  }
+  #spotlight-1 img, #spotlight-2 img, #spotlight-3 img {
+    width: 4em;
+  }
+  #spotlight-3 hr {
+    width: 100%;
+    margin: .5em 0 .5em;
+  }  
   footer {
     text-align: left;
     padding-top: 20px;
@@ -102,7 +122,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-bottom: 20px;
   }
   #website-info {
     display: flex;

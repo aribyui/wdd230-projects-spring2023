@@ -35,5 +35,5 @@ const seconds = d.getSeconds();
 const fulldate = `<p>${dayName}, ${day} ${monthName} ${year}<p>`;
 
 document.querySelector("#date").innerHTML = fulldate;
-
 document.getElementById("last-info").innerHTML = `<p>&copy;${year} Nuevo León Chamber | <span id="name">Lizandro Arizpe</span> | WDD 230 Project | Last Modification: ${day}/${month}/${year} ${hour}:${minutes}:${seconds}</p>`
+
