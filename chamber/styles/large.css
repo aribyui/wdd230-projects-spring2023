@@ -52,7 +52,7 @@
   .hero h2 {     
     top: 20px;
     left: 30px;
-    font-size: 2em;
+    font-size: 2.5em;
   } 
   .join, #spotlight-3 {
     display: block;
@@ -85,10 +85,8 @@
   }
   .spotlights {
     grid-column: 3/4;
-    grid-row: 1/4;
-    
-    display: block;
-    
+    grid-row: 1/4;    
+    display: block;    
   }
   .spotlights > div {    
     height: 13.5em;
