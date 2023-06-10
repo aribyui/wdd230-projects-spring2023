@@ -198,7 +198,7 @@ main > div {
   top: 20px;
   left: 20px;
   color: #FFFFFF;  
-  text-shadow: 4px 4px 8px #000000;
+  /* text-shadow: 4px 4px 8px #000000; */
 }
 
 .hero button {
