@@ -25,10 +25,9 @@ header {
 }
 
 #banner {  
-  display: none;
+  /* display: none; */
   background-color: #FF6B6B;
   padding: 1em; 
-  margin-bottom: 1em;
 }
 
 #banner p {
