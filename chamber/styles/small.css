@@ -186,7 +186,7 @@ main > div {
 
 .hero {
   position: relative;
-  height: 8em;
+  height: 12em;
 }
 
 .hero img {
@@ -198,8 +198,15 @@ main > div {
 .hero h2 {
   position: absolute;  
   top: 20px;
-  left: 20px;  
+  left: 20px;
   /* text-shadow: 4px 4px 8px #000000; */
+}
+
+#h2-background {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #292F36;
 }
 
 .hero button {
