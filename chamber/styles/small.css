@@ -26,7 +26,7 @@ header {
 }
 
 #banner {  
-  display: block;
+  display: none;
   background-color: #FF6B6B;
   padding: 1em; 
 }
@@ -336,6 +336,11 @@ footer {
 #footer-headings p, #contact-info p {
   font-size: .9em; 
   line-height: 1.4em;
+}
+
+/* https://developer.mozilla.org/es/docs/Learn/CSS/Styling_text/Styling_links#los_estados_de_un_enlace */
+#contact-info a:visited {
+  color:#4ECDC4;
 }
 
 footer hr {
