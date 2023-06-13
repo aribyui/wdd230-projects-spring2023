@@ -24,8 +24,8 @@ const months = [
 ];
 
 const d = new Date();
-// const day = d.getDate();
-const day = d.getDay();
+const day = d.getDate();
+const dayOftheWeek = d.getDay();
 const month = d.getMonth() + 1;
 const dayName = daynames[d.getDay()];
 const monthName = months[d.getMonth()];
@@ -40,6 +40,6 @@ document.getElementById("last-info").innerHTML = `<p>&copy;${year} Nuevo León C
 
 // banner
 const bannerElement = document.getElementById("banner");
-if (day === 1 || day === 2) {
+if (dayOftheWeek === 1 || dayOftheWeek === 2) {
   bannerElement.style.display = "block";
 }
