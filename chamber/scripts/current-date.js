@@ -24,7 +24,8 @@ const months = [
 ];
 
 const d = new Date();
-const day = d.getDate();
+// const day = d.getDate();
+const day = d.getDay();
 const month = d.getMonth() + 1;
 const dayName = daynames[d.getDay()];
 const monthName = months[d.getMonth()];
@@ -37,3 +38,8 @@ const fulldate = `<p>${dayName}, ${day} ${monthName} ${year}<p>`;
 document.querySelector("#date").innerHTML = fulldate;
 document.getElementById("last-info").innerHTML = `<p>&copy;${year} Nuevo León Chamber | <span id="name">Lizandro Arizpe</span> | WDD 230 Project | Last Modification: ${day}/${month}/${year} ${hour}:${minutes}:${seconds}</p>`
 
+// banner
+const bannerElement = document.getElementById("banner");
+if (day === 1 || day === 2) {
+  bannerElement.style.display = "block";
+}
