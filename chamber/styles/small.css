@@ -339,12 +339,17 @@ footer {
 }
 
 #contact-info a {
- color: #FFFFFF; 
+ color: #FFFFFF;  
+ text-decoration: none;
 }
 
 /* https://developer.mozilla.org/es/docs/Learn/CSS/Styling_text/Styling_links#los_estados_de_un_enlace */
 #contact-info a:visited {
   color:#FFFFFF;
+}
+
+#contact-info a:hover {
+  text-decoration: underline;
 }
 
 footer hr {
