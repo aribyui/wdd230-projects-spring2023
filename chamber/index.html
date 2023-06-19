@@ -31,7 +31,7 @@
     </div>    -->
     <div class="header-container">
       <div class="logo">
-        <a href="index.html"><img src="images/logo.png" alt="nuevo léon chamber of commerce logo"></a>
+        <a href="index.html"><img src="images/logo.webp" alt="nuevo léon chamber of commerce logo"></a>
         <div class="headings">
           <h1>Nuevo León</h1>
           <p>Chamber of Commerce</p>
@@ -64,7 +64,16 @@
 
     <div class="hero">
       <h2>Welcome to Nuevo León</h2>
-      <img src="images/cerro-de-la-silla.jpg" alt="photo of cerro de la silla, taken from the top of the mountain">
+      <picture>  
+        
+        <!-- <source media="(max-width: 519px)" srcset="images/wdd230-org-small.jpg">
+        <source media="(max-width: 1039px)" srcset="images/wdd230-org-medium.jpg"> -->
+
+        <source media="(min-width: 62.5em)" srcset="images/wdd230-org-large.jpg">
+        <source media="(min-width: 32.5em)" srcset="images/wdd230-org-medium.jpg">
+        
+        <img src="images/wdd230-org-small.jpg" alt="a woman and two men working at a desk"> 
+      </picture>      
       <button>Join the chamber</button>
     </div>
 
@@ -89,24 +98,24 @@
       <br>
       <div class="climate-prediction">
         <img src="images/sunny.png" alt="an icon that represents the weather, whether it is sunny, cloudy, etc.">  
-        <p id="temperature">31°C</p>             
+        <span id="temperature"></span>             
       </div> 
       <div class="sunny">
         <p>Sunny</p>      
       </div>
       <hr>
       <div class="climate-prediction">        
-        <p>Precipitation:</p>
-        <p>4%</p>        
+        <p>Wind Speed:</p>
+        <span id="wind-speed"></span>        
       </div>
       <div class="climate-prediction">        
-        <p>Humidity:</p>
-        <p>55%</p>        
+        <p>Wind Chill:</p>
+        <span id="wind-chill"></span>        
       </div>
-      <div class="climate-prediction">        
+      <!-- <div class="climate-prediction">        
         <p>Wind:</p>
         <p>6km/h</p>        
-      </div>
+      </div> -->
     </div>
 
     <div class="news">
@@ -169,7 +178,7 @@
   <footer>
     <div id="website-info-container">
       <div id="website-info">
-        <img src="images/logo.png" alt="nuevo léon chamber of commerce logo">
+        <img src="images/logo.webp" alt="nuevo léon chamber of commerce logo">
         <div id="footer-headings">
           <h2>Nuevo León<br>Chamber of Commerce</h2>
           <address>
@@ -193,5 +202,6 @@
   
   <script src="scripts/toggle-menu.js"></script>
   <script src="scripts/current-date.js"></script>
+  <script src="scripts/windchill.js"></script>
 </body>
 </html>
