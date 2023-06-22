@@ -198,7 +198,6 @@ main > div {
   position: absolute;  
   top: 10px;
   left: 20px;
-  /* text-shadow: 4px 4px 8px #000000; */
 }
 
 #h2-background {
@@ -311,6 +310,36 @@ main > div {
 }
 
 /* end - filling the containers */
+
+/* discover page */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  padding: 1.5em;
+  line-height: 1.7em;
+}
+
+.info-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.info img {
+  border: 1px solid #292F36;
+}
+
+.format-list {
+  list-style-type: none;    
+}
+
+.highlight-text {
+  font-weight: 700;
+}
+
+/* end discover page */
 
 footer {
   background-color: #292F36;
