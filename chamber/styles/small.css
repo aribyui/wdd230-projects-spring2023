@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* line-height: 1.5em; */
   /* border: 1px solid red; */
 }
 
@@ -297,7 +296,6 @@ main > div {
 
 #spotlight-1 img, #spotlight-2 img {
   width: 8em;
-  
 }
 
 .slogan-message {
@@ -315,28 +313,45 @@ main > div {
 
 .info {
   display: flex;
+  justify-content: center; 
   flex-direction: column;
-  align-items: center;
-  /* text-align: justify; */
-  padding: 1.5em;
-  line-height: 1.7em;
+  padding: 1em;
+  line-height: 1.7em; 
 }
 
-.info-img-container {
-  display: flex;
+.info h2 {
+  text-align: center;  
+}
+
+.info picture {
+  margin: 1em 0 1em 0;
+}
+
+.info picture img {
+  width: 100%;  
+  filter: blur(0em);
+  display: block; 
+  border: 1px solid #292F36; 
+}
+
+.list-container {
+  display: flex; 
   justify-content: center;
+  margin-top: 1em;  
 }
 
-.info img {
-  border: 1px solid #292F36;
-}
-
-.format-list {
-  list-style-type: none;    
+.description p {
+  text-align: justify; 
 }
 
 .highlight-text {
   font-weight: 700;
+}
+
+.location-link {  
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
 }
 
 /* end discover page */
