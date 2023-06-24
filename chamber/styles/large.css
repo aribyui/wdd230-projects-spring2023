@@ -109,7 +109,7 @@
   /* discover page */
 
 
-  /* #demographic {
+  #demographic {
     grid-column: 2/3;
   }
   #cerro-la-silla {
@@ -126,7 +126,7 @@
   }
   #garcia-caves {
     grid-column: 2/3; 
-  } */
+  }
   
   
   /* end discover page */

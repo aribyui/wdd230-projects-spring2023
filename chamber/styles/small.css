@@ -314,6 +314,7 @@ main > div {
 .info {
   display: flex;
   justify-content: center; 
+  align-items: center;
   flex-direction: column;
   padding: 1em;
   line-height: 1.7em; 

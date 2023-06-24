@@ -21,7 +21,6 @@
   main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
     gap: 1em;
   }
   main > div{
@@ -80,26 +79,38 @@
     padding: 1em;
   }
     /* discover page */ 
+  .info {
+    justify-content:flex-start;
+  }
+  .info h2 {
+   font-size: 1.4em;
+  }
   #demographic {
-    grid-column: 1/4;
-  
+    grid-column: 1/2;  
+    grid-row: 1/2;  
   }
   #cerro-la-silla {
-    grid-column: 1/4;
-    
+    grid-column: 2/3;
+    grid-row: 1/2;  
   }
   #fundidora {
-    grid-column: 1/4;
+    grid-column: 3/4;
+    grid-row: 1/2;  
   }
   #santa-lucia {
-    grid-column: 1/4;
+    grid-column: 1/2;
+    grid-row: 2/3;  
   }
   #arena-monterrey {
-    grid-column: 1/4;
+    grid-column: 2/3;
+    grid-row: 2/3;  
   }
   #garcia-caves {
-    grid-column: 1/4;
+    grid-column: 3/4;
+    grid-row: 2/3;  
   }
+
+
 
   /* end discover page */
   footer {
