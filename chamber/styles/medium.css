@@ -83,7 +83,7 @@
     justify-content:flex-start;
   }
   .info h2 {
-   font-size: 1.4em;
+   font-size: 1.2em;
   }
   #demographic {
     grid-column: 1/2;  
