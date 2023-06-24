@@ -82,11 +82,11 @@
     /* discover page */ 
   #demographic {
     grid-column: 1/4;
-    grid-row: 1/2;
+  
   }
   #cerro-la-silla {
     grid-column: 1/4;
-    grid-row: 2/3;
+    
   }
   #fundidora {
     grid-column: 1/4;
@@ -94,7 +94,7 @@
   #santa-lucia {
     grid-column: 1/4;
   }
-  #mirador-obispado {
+  #arena-monterrey {
     grid-column: 1/4;
   }
   #garcia-caves {

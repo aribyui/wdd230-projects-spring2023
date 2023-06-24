@@ -327,17 +327,16 @@ main > div {
   margin: 1em 0 1em 0;
 }
 
+.info picture img[data-src] {
+  filter: blur(0.2em);
+}
+
 .info picture img {
   width: 100%;  
   filter: blur(0em);
+  transition: filter 0.5s;
   display: block; 
   border: 1px solid #292F36; 
-}
-
-.list-container {
-  display: flex; 
-  justify-content: center;
-  margin-top: 1em;  
 }
 
 .description p {

@@ -109,21 +109,25 @@
   /* discover page */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  /* #demographic {
+    grid-column: 2/3;
+  }
+  #cerro-la-silla {
+    grid-column: 2/3;    
+  }
+  #fundidora {
+    grid-column: 2/3; 
+  }
+  #santa-lucia {
+    grid-column: 2/3; 
+  }
+  #arena-monterrey {
+    grid-column: 2/3; 
+  }
+  #garcia-caves {
+    grid-column: 2/3; 
+  } */
+  
   
   /* end discover page */
   footer {
