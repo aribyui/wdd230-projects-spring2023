@@ -49,15 +49,15 @@
     /* grid-template-rows: 200px 250px 200px;     */
     margin: 20px 50px 20px;
   }
-  .join, #spotlight-3 {
+  #join, #spotlight-3 {
     display: block;
   }
-  .event {
+  #event {
     grid-column: 1/2;
     grid-row: 1/2;    
     margin-right: 0;    
   }
-  .weather {
+  #weather {
     grid-column: 1/2;
     grid-row: 2/3;
     height: auto;
@@ -65,16 +65,16 @@
     margin-right: 0;
     padding: 0;
   }
-  .join {
+  #join {
     grid-column: 1/2;
     grid-row: 3/4;    
   }
-  .hero {
+  #hero {
     grid-column: 2/3;
     grid-row: 1/3;
     /* height: auto; deshabilite esto hoy por la mañana 11:18 am*/
   }
-  .news {
+  #news {
     grid-column: 2/3;
     grid-row: 3/4;       
   }
@@ -86,13 +86,13 @@
   .spotlights > div {    
     height: 13.5em;
   }
-  .weather {
+  #weather {
     padding: 1em;
   } 
-  .news {
+  #news {
     padding: 1em;
   }   
-  #spotlight-3{
+  #spotlight-3 {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -108,27 +108,34 @@
   }  
   /* discover page */
 
-
   #demographic {
-    grid-column: 2/3;
+    grid-column: 1/4;
+    grid-row: 1/2;
   }
-  #cerro-la-silla {
-    grid-column: 2/3;    
+  #cerro-la-silla{
+    grid-column: 1/4;
+    grid-row: 2/3;
   }
   #fundidora {
-    grid-column: 2/3; 
+    grid-column: 1/4;
+    grid-row: 3/4;
   }
   #santa-lucia {
-    grid-column: 2/3; 
+    grid-column: 1/5;
+    grid-row: 4/5;
   }
   #arena-monterrey {
-    grid-column: 2/3; 
+    grid-column: 1/5;
+    grid-row: 5/6;
   }
   #garcia-caves {
-    grid-column: 2/3; 
+    grid-column: 1/4;
+    grid-row: 6/7;
   }
-  
-  
+  .information-container picture img {
+    width: 40vw;
+    height: 60vh;
+  }
   /* end discover page */
   footer {
     text-align: left;
