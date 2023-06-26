@@ -348,7 +348,7 @@ main {
   display: block;
   object-fit: cover;
   width: 95vw;
-  height: 50vh;
+  height: 500px;
   border: 1px solid #292F36;
 }
 
