@@ -104,6 +104,9 @@
     grid-column: 1/4;
     grid-row: 6/7;
   }
+  .information-container picture img {
+    width: 98vw;
+  }
   /* end discover page */
   footer {
     text-align: left;
