@@ -20,9 +20,8 @@
   }
   main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* grid-template-columns: 1fr 1fr; */
-    gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr;   
+    /* gap: 1em; */
   }
   .home-containers {
     margin: 0;
@@ -80,6 +79,9 @@
     padding: 1em;
   }
   /* discover page */ 
+  .information-container {
+    
+  } 
   #demographic {
     grid-column: 1/4;
     grid-row: 1/2;
@@ -105,7 +107,7 @@
     grid-row: 6/7;
   }
   .information-container picture img {
-    width: 98vw;
+    width: 97vw;
   }
   /* end discover page */
   footer {

@@ -136,6 +136,12 @@
     width: 40vw;
     height: 60vh;
   }
+  .information-container p {
+    margin: 1em 10.5em 0 10.5em;
+  } 
+  .information-container hr {
+    width: 70%;
+  }
   /* end discover page */
   footer {
     text-align: left;

@@ -287,7 +287,7 @@ main {
 
 #weather hr {
   border: 1px solid #292F36;
-  margin: .5em 0;
+
 }
 
 #news {
@@ -321,28 +321,22 @@ main {
 /* end - filling the containers */
 
 /* discover page */
-
 .information-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #292F36;
+}
+.information-container h2 {
   margin-bottom: 1em;
 }
-
-.information-container h2 {
-  margin: .4em 1em 1em 1em;
-}
-
 .information-container hr {
   width: 100%;
-  margin: 1em 0;
+  margin: 1.5em 0;
 }
-
 .information-container picture img[data-src] {
   filter: blur(0.2em)
 }
-
 .information-container picture img {
   filter: blur(0em);
   display: block;
@@ -350,33 +344,28 @@ main {
   width: 95vw;
   height: 500px;
   border: 1px solid #292F36;
+  /* margin: 1em 0; */
 }
-
 .information-container p {
-  margin: 1em 0.4em 1em 0.4em;
-  line-height: 1.5em;
+  line-height: 1.7em;
   text-align: justify;
+  margin: 1.5em .4em 0 .4em;
 }
-
 .highlight-text {
   font-weight: 700;
 }
-
 .location-link {  
   display: flex;
   justify-content: center;
 }
-
 .location-link a {
   color: #292F36;
   text-decoration: none;
 }
-
 .location-link a:hover {
   color: #292F36;
   text-decoration: underline;
 }
-
 /* end discover page */
 
 footer {
