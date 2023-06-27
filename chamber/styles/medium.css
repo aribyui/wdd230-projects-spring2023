@@ -21,7 +21,7 @@
   main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;   
-    /* gap: 1em; */
+    gap: 1em;
   }
   .home-containers {
     margin: 0;
