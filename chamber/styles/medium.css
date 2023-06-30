@@ -79,9 +79,6 @@
     padding: 1em;
   }
   /* discover page */ 
-  .information-container {
-    
-  } 
   #demographic {
     grid-column: 1/4;
     grid-row: 1/2;
@@ -106,8 +103,18 @@
     grid-column: 1/4;
     grid-row: 6/7;
   }
+  .information-container picture img:hover {    
+    /* box-shadow: rgba(0, 0, 0, 1) 0px 10px 20px, rgba(41, 41, 41, 0.23) 0px 6px 6px; */
+    /* border-radius: 15px 150px; */
+    box-shadow: rgb(95, 95, 95) 0px 0px 20px, rgba(41, 41, 41, 0.23) 0px 0px 6px;
+    transition: .2s;
+
+  }
   .information-container picture img {
     width: 97vw;
+  }
+  .information-container figcaption {
+    margin-top: 1.2em;
   }
   /* end discover page */
   footer {

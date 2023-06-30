@@ -11,7 +11,7 @@ h1, h2, h3 {
 }
 
 div, p, a {
-  font-family: 'Rubik';
+  font-family: 'Rubik', Helvetica, sans-serif;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
 
 header {
   background-color: #292F36;
-  padding: 0.6em 0.5em 1em 0.5em;   
+  padding: 0.6em 1em 1em 1em;   
   position: relative;
 }
 
@@ -339,7 +339,7 @@ main {
 }
 .information-container picture img {
   filter: blur(0em);
-  display: block;
+  display: block; /* esto es para quitar el espacio que sobra */
   object-fit: cover;
   width: 95vw;
   height: 500px;
@@ -347,7 +347,7 @@ main {
   /* margin: 1em 0; */
 }
 .information-container figcaption {
-  margin-top: .4em;
+  margin-top: .5em;
   font-style: italic;
   text-align: center;
 }
@@ -362,6 +362,7 @@ main {
 .location-link {  
   display: flex;
   justify-content: center;
+  margin-top: 1em;
 }
 .location-link a {
   color: #292F36;
@@ -377,7 +378,8 @@ footer {
   background-color: #292F36;
   color: #FFFFFF;
   text-align: center;
-  padding: 1em .5em;
+  /* padding: 1em .5em; */
+  padding: 1em; 
 }
 
 #website-info img {
@@ -423,4 +425,13 @@ footer hr {
   margin-left: 5em;
   margin-right: 5em;    
   text-align: center;
+}
+
+#last-visit-container {
+  background-color: #4ECDC4;
+  color: #292F36;
+  text-align: center;
+  margin-top: 1em;
+  padding: .5em;
+  font-family:'Rubik', Helvetica, sans-serif ;
 }

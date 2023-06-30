@@ -41,7 +41,6 @@
   #current-date {
     padding: 0.7em;
     font-size: 1.2em;
-    margin-top: .5em;
   } 
   main {
     display: grid;
@@ -166,5 +165,8 @@
   }
   #last-details {
     font-size: 1em;
+  }
+  #last-visit-container {
+    font-size: 1.2em;
   }
 }
