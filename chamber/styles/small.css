@@ -326,6 +326,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   color: #292F36;
 }
 .information-container h2 {
