@@ -113,9 +113,9 @@
   .information-container picture img {
     width: 97vw;
   }
-  .information-container figcaption {
+  /* .information-container figcaption {
     margin-top: 1.2em;
-  }
+  } */
   /* end discover page */
   footer {
     text-align: left;

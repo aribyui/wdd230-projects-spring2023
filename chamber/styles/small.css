@@ -21,7 +21,8 @@ body {
 
 header {
   background-color: #292F36;
-  padding: 0.6em 1em 1em 1em;   
+  /* padding: 0.6em 1em 1em 1em;    */
+  padding: 0.6em .4em .6em .4em;   
   position: relative;
 }
 
@@ -334,17 +335,22 @@ main {
   width: 100%;
   margin: 1.5em 0;
 }
+
+/* .information-container picture {
+  
+} */
+
 .information-container picture img[data-src] {
   filter: blur(0.2em)
 }
 .information-container picture img {
   filter: blur(0em);
-  display: block; /* esto es para quitar el espacio que sobra */
+  display: block;
+  /* https://escss.blogspot.com/2015/01/recorte-centrado-automatico-imagen.html */
   object-fit: cover;
   width: 95vw;
   height: 500px;
   border: 1px solid #292F36;
-  /* margin: 1em 0; */
 }
 .information-container figcaption {
   margin-top: .5em;
