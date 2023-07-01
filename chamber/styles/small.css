@@ -22,7 +22,7 @@ body {
 header {
   background-color: #292F36;
   /* padding: 0.6em 1em 1em 1em;    */
-  padding: 0.6em .4em .6em .4em;   
+  padding: 1em;   
   position: relative;
 }
 
@@ -154,7 +154,7 @@ header {
 }
 
 main {  
-  margin: 1em .4em;
+  margin: 1em;
   /* font-family: 'Rubik', Helvetica, sans-serif; */
 }
 
@@ -348,7 +348,7 @@ main {
   display: block;
   /* https://escss.blogspot.com/2015/01/recorte-centrado-automatico-imagen.html */
   object-fit: cover;
-  width: 95vw;
+  width: 90vw;
   height: 500px;
   border: 1px solid #292F36;
 }
