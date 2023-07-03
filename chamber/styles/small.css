@@ -192,7 +192,6 @@ main {
 }
 
 /* start - filling the containers */
-
 #hero {
   position: relative;
   height: auto;
@@ -288,7 +287,6 @@ main {
 
 #weather hr {
   border: 1px solid #292F36;
-
 }
 
 #news {
@@ -318,7 +316,6 @@ main {
   width: 100%;
   margin: .5em 0 .5em;
 }
-
 /* end - filling the containers */
 
 /* discover page */
@@ -336,11 +333,6 @@ main {
   width: 100%;
   margin: 1.5em 0;
 }
-
-/* .information-container picture {
-  
-} */
-
 .information-container picture img[data-src] {
   filter: blur(0.2em)
 }
@@ -380,6 +372,12 @@ main {
   text-decoration: underline;
 }
 /* end discover page */
+
+/* join page */
+
+
+
+/* end join page */
 
 footer {
   background-color: #292F36;
