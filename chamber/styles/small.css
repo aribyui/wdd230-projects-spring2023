@@ -332,6 +332,7 @@ main {
 .information-container hr {
   width: 100%;
   margin: 1.5em 0;
+  border: 1px solid #4ECDC4;
 }
 .information-container picture img[data-src] {
   filter: blur(0.2em)
