@@ -22,7 +22,7 @@ caption {
 table {
   border-collapse: collapse; 
   font-size: 1.5em;  
-  
+  box-shadow: rgb(150, 150, 150) 10px 10px 10px;
 }
 
 th, td {
