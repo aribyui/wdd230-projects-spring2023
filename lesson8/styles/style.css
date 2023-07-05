@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  /* border: 1px dashed red; */
+}
+
+caption {
+  caption-side: bottom;
+  padding-top: .5em;
+  font-size: .8em;
+}
+
+table {
+  border-collapse: collapse; 
+  font-size: 1.5em;  
+}
+
+th, td {
+  padding: 10px 25px;
+  border: 1px solid #202020;
+}
+
+td {
+  text-align: center;  
+}
+
+thead tr:nth-child(1) th {
+  background-color: #202020;
+  color: white;
+  padding: 1em;
+}
+
+thead tr:nth-child(2) td {
+  background-color: #202020;
+}
+
+thead tr:nth-child(2) th {
+  background-color: #0acef1;
+  color: #202020;
+}
+
+tbody tr:nth-child(even)  {
+  background-color: #dedede;
+}
+
+.check-mark {
+  color: #0acef1;
+}
+
+.x {
+  color: red;
+}
+
+
+
+
+
+
+
