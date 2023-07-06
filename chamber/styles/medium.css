@@ -112,8 +112,7 @@
     transition: .2s;
   } */
   .information-container picture img {
-    /* width: 95vw; */
-    width: 50%;
+    width: auto;
     margin: 0 auto;
   }
   

@@ -134,16 +134,20 @@
     grid-column: 1/4;
     grid-row: 6/7;
   }
-  .information-container picture img {
-    width: 40vw;
-    height: 60vh;
-  }
+
+
+
+
   .information-container p {
     margin: 1em 10.5em 0 10.5em;
   } 
   .information-container hr {
-    width: 70%;
+    width: 69%;
+    margin: 1.5em auto;
   }
+
+
+
   /* end discover page */
   footer {
     text-align: left;
