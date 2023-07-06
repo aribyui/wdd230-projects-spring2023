@@ -135,16 +135,22 @@
     grid-row: 6/7;
   }
 
+ 
 
-
-
-  .information-container p {
+  .information-container picture img:hover {    
+    box-shadow: #292F36 5px 5px 10px;
+    transition: all ease-out;
+    transform: scale(1.02);
+  }
+   .information-container p {
     margin: 1em 10.5em 0 10.5em;
   } 
-  .information-container hr {
+    .information-container hr {
     width: 69%;
     margin: 1.5em auto;
   }
+  
+
 
 
 
