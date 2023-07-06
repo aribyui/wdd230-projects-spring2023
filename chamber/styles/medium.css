@@ -104,18 +104,13 @@
     grid-row: 6/7;
   }
 
-
  
 
-  /* .information-container picture img:hover {    
-    box-shadow: rgb(95, 95, 95) 0px 0px 20px, rgba(41, 41, 41, 0.23) 0px 0px 6px;
-    transition: .2s;
-  } */
   .information-container picture img {
     width: auto;
     margin: 0 auto;
   }
-  
+
 
 
   #demographic {
