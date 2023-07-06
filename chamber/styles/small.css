@@ -325,15 +325,19 @@ main {
   align-items: center;
   justify-content: center;
   color: #292F36;
+  /* border: 1px dashed red; */
 }
 .information-container h2 {
   margin-bottom: 1em;
 }
-.information-container hr {
-  width: 100%;
-  margin: 1.5em 0;
-  border: 1px solid #4ECDC4;
-}
+
+
+
+/* .information-container picture {
+  border: 1px dashed red;
+  width: 90vw;
+  height: auto; 
+} */
 .information-container picture img[data-src] {
   filter: blur(0.2em)
 }
@@ -343,9 +347,12 @@ main {
   /* https://escss.blogspot.com/2015/01/recorte-centrado-automatico-imagen.html */
   object-fit: cover;
   width: 90vw;
-  height: 500px;
-  border: 1px solid #292F36;
+  height: auto;
+  border: 2px solid #292F36;
 }
+
+
+
 .information-container figcaption {
   margin-top: .5em;
   font-style: italic;
@@ -371,6 +378,11 @@ main {
 .location-link a:hover {
   color: #292F36;
   text-decoration: underline;
+}
+.information-container hr {
+  width: 100%;
+  margin: 1.5em 0;
+  border: 1px solid #4ECDC4;
 }
 /* end discover page */
 
