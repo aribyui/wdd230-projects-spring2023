@@ -326,14 +326,9 @@ main {
   margin-bottom: 1em;
   text-align: center;
 }
-
-
-
-
-/* testing */
 .information-container picture {
   display: block;  
-  border: 2px solid #292F36;
+  /* border: 2px solid #292F36; */
 }
 .information-container picture img[data-src] {
   filter: blur(0.2em);
@@ -342,12 +337,8 @@ main {
   filter: blur(0em);
   width: 100%;  
   display: block;  
+  border: 2px solid #292F36;
 }
-/* end testing */
-
-
-
-
 .information-container figcaption {
   margin-top: .5em;
   font-style: italic;

@@ -103,20 +103,49 @@
     grid-column: 1/4;
     grid-row: 6/7;
   }
-  .information-container picture img:hover {    
-    /* box-shadow: rgba(0, 0, 0, 1) 0px 10px 20px, rgba(41, 41, 41, 0.23) 0px 6px 6px; */
-    /* border-radius: 15px 150px; */
+
+
+ 
+
+  /* .information-container picture img:hover {    
     box-shadow: rgb(95, 95, 95) 0px 0px 20px, rgba(41, 41, 41, 0.23) 0px 0px 6px;
     transition: .2s;
-
-  }
-  .information-container picture img {
-    width: 95vw;
-  }
-  /* .information-container figcaption {
-    margin-top: 1.2em;
   } */
-  /* end discover page */
+  .information-container picture img {
+    /* width: 95vw; */
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+
+
+  #demographic {
+    grid-column: 1/4;
+    grid-row: 1/2;
+  }
+  #cerro-la-silla {
+    grid-column: 1/4;
+    grid-row: 2/3;
+  }
+  #fundidora {
+    grid-column: 1/4;
+    grid-row: 3/4;
+  }
+  #santa-lucia {
+    grid-column: 1/4;
+    grid-row: 4/5;
+  }
+  #arena-monterrey {
+    grid-column: 1/4;
+    grid-row: 5/6;
+  }
+  #garcia-caves {
+    grid-column: 1/4;
+    grid-row: 6/7;
+  }
+
+
+  
   footer {
     text-align: left;
     padding-top: 20px;
