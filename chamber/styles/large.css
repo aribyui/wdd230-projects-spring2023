@@ -111,49 +111,40 @@
   /* discover page */
 
   #demographic {
-    grid-column: 1/4;
+    grid-column: 2/3;
     grid-row: 1/2;
   }
   #cerro-la-silla{
-    grid-column: 1/4;
+    grid-column: 2/3;
     grid-row: 2/3;
   }
   #fundidora {
-    grid-column: 1/4;
+    grid-column: 2/3;
     grid-row: 3/4;
   }
   #santa-lucia {
-    grid-column: 1/5;
+    grid-column: 2/3;
     grid-row: 4/5;
   }
   #arena-monterrey {
-    grid-column: 1/5;
+    grid-column: 2/3;
     grid-row: 5/6;
   }
   #garcia-caves {
-    grid-column: 1/4;
+    grid-column: 2/3;
     grid-row: 6/7;
   }
 
- 
+
 
   .information-container picture img:hover {    
     box-shadow: #292F36 5px 5px 10px;
     transition: all ease-out;
     transform: scale(1.02);
-  }
-   .information-container p {
-    margin: 1em 10.5em 0 10.5em;
   } 
-    .information-container hr {
-    width: 69%;
-    margin: 1.5em auto;
-  }
+
+
   
-
-
-
-
   /* end discover page */
   footer {
     text-align: left;

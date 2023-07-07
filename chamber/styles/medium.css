@@ -105,10 +105,11 @@
   }
 
  
-
+  .information-container {
+    margin-bottom: 0;
+  }
   .information-container picture img {
-    width: auto;
-    margin: 0 auto;
+    width: auto;    
   }
 
 
