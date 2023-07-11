@@ -319,8 +319,6 @@ main {
 }
 /* end - filling the containers */
 
-
-
 /* discover page */
 .information-container {
   border: 2px solid #292F36;
@@ -379,7 +377,71 @@ main {
 }
 /* end discover page */
 
+/* join page */
 
+form {
+  font-family: 'Rubik', Helvetica, sans-serif;
+}
+
+form fieldset {
+  background-color: #e9e9e9;
+  padding: 0 1em 1em 1em;
+  border: 1px solid #292F36;
+}
+
+form legend {
+  font-weight: 700;
+}
+
+form label {
+  display: block;
+  margin-top: 1em;
+}
+
+form input {
+  padding: .75rem;
+  /* border-radius: 5px; */
+  border: 1px solid #292F36;
+}
+
+form textarea {
+  margin-top: 1em;
+  padding: .75rem;
+  width: 100%;
+  resize: none;
+}
+
+.text-fields {
+  display: block;
+  width: 100%;
+}
+
+.submitBtn {
+  background-color: #4ECDC4;
+  color: #292F36;
+  border: 2px solid #292F36;
+  border-radius: 5px;
+  margin-top: 1em;
+  width: 100%;
+}
+
+.membership, .business-description {
+  margin-top: 1em;
+}
+
+.user-information input {
+  margin-top: .2em;
+}
+
+input:required {
+  border-left: 5px solid #FF6B6B;
+}
+
+input:valid {
+  border: 2px solid #4ECDC4;
+}
+
+/* end join page */
 
 footer {
   background-color: #292F36;
