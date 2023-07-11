@@ -433,11 +433,11 @@ form textarea {
   margin-top: .2em;
 }
 
-input:required {
+.user-information input:required, .membership input:required {
   border-left: 5px solid #FF6B6B;
 }
 
-input:valid {
+.user-information input:valid, .membership input:valid {
   border: 2px solid #4ECDC4;
 }
 
