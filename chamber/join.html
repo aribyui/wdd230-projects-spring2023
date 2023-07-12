@@ -59,17 +59,22 @@
 
   <main>
 
-    <!-- <h2>Register to the chamber!</h2> -->
+    <div class="join-message">
+      <h2 id="join-heading">Join to Our Chamber</h2>
+      <p>        
+        Register in our chamber and obtain the benefits that we have for our affiliates.
+      </p>
+    </div>
 
-    <form method="get" action="thanksyou.html">
-    <!-- <h2>Register to the chamber!</h2><br> -->
+    <form method="get" action="thanksyou.html">      
+
       <fieldset class="user-information">
         <legend>User Information</legend>
-        <label for="fname">First Name* <input type="text" id="fname" name="name" required class="text-fields"></label>
-        <label for="lname">Last Name* <input type="text" id="lname" required class="text-fields"></label>
+        <label for="fname">First Name<span title="Field required">*</span> <input type="text" id="fname" name="name" required class="text-fields"></label>
+        <label for="lname">Last Name<span title="Field required">*<input type="text" id="lname" required class="text-fields"></label>
         <label for="business-position">Business Position <input type="text" id="business-position" class="text-fields"></label>
-        <label for="mail">Email* <input type="email" id="mail" required placeholder="johndoe@gmail.com" class="text-fields"></label>
-        <label for="phone">Phone* <input type="tel" id="phone" required class="text-fields"></label>
+        <label for="mail">Email<span title="Field required">*<input type="email" id="mail" required placeholder="e.g. example@gmail.com" class="text-fields"></label>
+        <label for="phone">Phone<span title="Field required">*<input type="tel" id="phone" required class="text-fields"></label>
         <label for="business-name">Business Name <input type="text" id="business-name" required class="text-fields"></label>
       </fieldset>
       
@@ -83,9 +88,9 @@
 
       <fieldset class="business-description">
         <legend>Business Description</legend>
-        <label for="business">Describe briefly your business:
-          <textarea id="business" cols="30" rows="5"></textarea>
-        </label>
+        <!-- <label for="business">Describe briefly your business: -->
+          <textarea id="business" cols="30" rows="10"></textarea>
+        <!-- </label> -->
       </fieldset>
 
       <input type="submit" value="Register My Account" class="submitBtn">

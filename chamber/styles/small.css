@@ -380,24 +380,35 @@ main {
 /* join page */
 
 form {
-  font-family: 'Rubik', Helvetica, sans-serif;
-  background-color: #e9e9e9;
-  border: 1px solid #292F36;
-  padding: 1em;
+  font-family: 'Rubik', Helvetica, sans-serif;  
+}
+
+.join-message p {
+  margin-top: 1em;
+}
+
+#join-heading {
+  font-family: 'Roboto', Helvetica, sans-serif;
 }
 
 form fieldset {
-  padding: 0;
-  border: 0;  
+  background-color: #e9e9e9;
+  border-radius: 5px;
+  border: 1px solid #292F36;
+  padding: 0 1em 1.5em 1em;
 }
 
 form legend {
   font-weight: 700;
+  /* background-color: #292F36;
+  color: #FFFFFF;
+  padding: .5em 1em;
+  border-radius: 5px; */
 }
 
-form label {
+form label, textarea {
   display: block;
-  margin-top: 1em;
+  margin-top: 1em;  
 }
 
 .user-information input {
@@ -407,15 +418,15 @@ form label {
   width: 100%;
 }
 
-.membership, .business-description {
-  margin-top: 2em;
+.user-information, .membership, .business-description {
+  margin-top: 1em;
 }
 
-form textarea {
-  
+form textarea {  
   padding: .75rem;
   width: 100%;
-  resize: none;
+  /* resize: none; */
+  border: 1px solid #292F36;
 }
 
 .submitBtn {
@@ -436,12 +447,6 @@ form textarea {
 .user-information input:required:valid {
   border: 2px solid #4ECDC4;
 }
-
-
-
-/* .user-information input:valid, .membership input:valid {
-  border: 2px solid #4ECDC4;
-} */
 
 /* end join page */
 
