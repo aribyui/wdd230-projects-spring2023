@@ -104,15 +104,39 @@
     grid-row: 6/7;
   }
 
- 
+  /* discover page */
   .information-container {
     margin-bottom: 0;
   }
   .information-container picture img {
     width: auto;    
   }
+  /* end discover page */
 
-
+  /* join page */
+  form {
+    grid-column: 2/4;
+  }    
+  .memberships-container {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #benefits-heading {
+    display: none;
+  }
+  .memberships-container h3 {
+    font-size: 1em;
+  }
+  .memberships-container > div {
+    margin-top: 0;
+  }
+  .submitBtn {
+    margin-left: 1em;
+    width: auto;
+  }
+  /* end join page */
 
   #demographic {
     grid-column: 1/4;
