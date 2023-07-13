@@ -114,6 +114,7 @@
    form {
     grid-column: 2/4;
     grid-row: 1/3;
+    padding: 1em 2em;
   }    
   .memberships-container {
     grid-column: 1/2;
@@ -121,9 +122,6 @@
     margin-top: 0;
     /* margin-bottom: 0; */
     /* height: 72vh; */
-  }
-  .memberships-container h3 {
-    font-size: 1em;
   }
   .memberships-container > div {
     margin-top: 0;
