@@ -109,7 +109,6 @@
     margin: .5em 0 .5em;
   }  
   /* discover page */
-
   #demographic {
     grid-column: 2/3;
     grid-row: 1/2;
@@ -134,18 +133,15 @@
     grid-column: 2/3;
     grid-row: 6/7;
   }
-
-
-
   .information-container picture img:hover {    
     box-shadow: #292F36 5px 5px 10px;
     transition: all ease-out;
     transform: scale(1.02);
-  } 
-
-
-  
+  }   
   /* end discover page */
+  /* join page */
+
+  /* end join page */
   footer {
     text-align: left;
     padding-top: 20px;

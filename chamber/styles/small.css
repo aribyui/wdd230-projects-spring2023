@@ -377,48 +377,24 @@ main {
 /* end discover page */
 
 /* join page */
-.memberships-container hr {
-  margin-top: 1em;
-}
-
-.memberships-container {
-  background-color: #e9e9e9;
-  border: 1px solid #292F36;
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-.memberships-container > div {
-  padding: 1em;
-}
-
-.membership input {
-  background-color: #4ECDC4;
-}
-
-.chamber-benefits {
-  margin-top: 1em;
-  line-height: 1.5em;
-  padding-left: 1.5em;
-}
-
 form {
+  background-color: #e9e9e9;    
+  border: 2px solid #292F36;
+  padding: 1em 1em; 
+}
+
+form label, #submitBtn {
   font-family: 'Rubik', Helvetica, sans-serif;  
 }
 
-.join-message p {
-  margin-top: 1em;
+form legend {
+  font-family: 'Roboto', Helvetica, sans-serif; 
+  font-weight: 700;
 }
 
 form fieldset {
-  background-color: #e9e9e9;
-  /* border-radius: 5px; */
-  border: 1px solid #292F36;
-  padding: 0 1em 1.5em 1em;
-}
-
-form legend {
-  font-weight: 700;
+  border: 0;
+  padding: 0;  
 }
 
 form label, textarea {
@@ -431,28 +407,68 @@ form label, textarea {
   display: block;
   padding: .75rem;
   width: 100%;
+  margin-top: .2em;
 }
 
-.user-information, .membership, .business-description {
+.user-information, .membership {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.business-description {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.membership input {
+  background-color: #4ECDC4;
+}
+
+.memberships-container {
+  background-color: #e9e9e9;
+  border: 2px solid #292F36;
   margin-top: 1em;
+  
+  padding: 1em 1em 0 1em;
+}
+
+.memberships-container > div {
+  margin-bottom: 1em;
+}
+
+.memberships-container hr {
+  margin-top: 1em;
+}
+
+.chamber-benefits {
+  margin-top: 1em;
+  line-height: 1.5em;
+  padding-left: 1.5em;
 }
 
 form textarea {  
   padding: .75rem;
   width: 100%;
-  resize: none;
+  resize: vertical;
   border: 1px solid #292F36;
 }
 
-.submitBtn {
+#submitBtn {
   background-color: #4ECDC4;
-  border: 1px solid #292F36;
+  border: 2px solid #292F36;
   border-radius: 5px;
   color: #292F36;
   font-weight: 700;
   padding: .75rem;
-  margin-top: 1em;
   width: 100%;  
+}
+
+#benefits-heading {
+  text-align: center;
+}
+
+#join-hr {
+  margin-top: 1em;
 }
 
 .user-information input:required {

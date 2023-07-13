@@ -57,17 +57,46 @@
     </div>
   </header> 
 
-  <main>
+  <main>    
 
-    <!-- <button id="benefits">See Benefits</button> -->
-    <h2 id="benefits-heading">Benefits</h2> 
+    <form method="get" action="thanksyou.html">      
+      <h2>Join to Our Chamber</h2>
+      <hr id="join-hr">
+      <fieldset class="user-information">
+        <legend>User Information</legend>
+        <label for="fname">First Name<span title="Field required">*</span><input type="text" id="fname" name="name" required class="text-fields"></label>
+        <label for="lname">Last Name<span title="Field required">*</span><input type="text" id="lname" required class="text-fields"></label>
+        <label for="business-position">Business Position <input type="text" id="business-position" class="text-fields"></label>
+        <label for="mail">Email<span title="Field required">*</span><input type="email" id="mail" required placeholder="e.g. example@gmail.com" class="text-fields"></label>
+        <label for="phone">Phone<span title="Field required">*</span><input type="tel" id="phone" required class="text-fields"></label>
+        <label for="business-name">Business Name<span title="Field required">*</span><input type="text" id="business-name" required class="text-fields"></label>
+      </fieldset>
+      
+      <fieldset class="membership">
+        <legend>Membership Level</legend>
+        <label for="non-profit"><input type="radio" id="non-profit" name="membership-level"> Non Profit Membership</label>
+        <label for="bronze-membership"><input type="radio" id="bronze-membership" name="membership-level"> Bronze Membership - $150 💵</label>
+        <label for="silver-membership"><input type="radio" id="silver-membership" name="membership-level"> Silver Membership - $300 💵</label>
+        <label for="gold-membership"><input type="radio" id="gold-membership" name="membership-level"> Gold Membership - $450 💵</label>  
+      </fieldset>
 
-    <div class="memberships-container">      
+      <fieldset class="business-description">
+        <legend>Business Description</legend>
+        <label for="business">Describe your business:
+          <textarea id="business" cols="30" rows="10"></textarea>
+        </label>
+      </fieldset>
+
+      <input type="submit" value="Register My Account" id="submitBtn">
+
+    </form>
+
+    <div id="plans" class="memberships-container">  
       <div class="non-profit">
         <h3>🆓 Non Profit Membership</h3> 
         <hr>
         <ul class="chamber-benefits">          
-          <li>Library Service (virtual)</li>
+          <li>Library Service</li>
         </ul>      
       </div>
   
@@ -75,7 +104,7 @@
         <h3>🥉 Bronze Membership</h3>
         <hr>
         <ul class="chamber-benefits">  
-          <li>Library Service (virtual/local)</li>  
+          <li>Library Service</li>  
           <li>Training courses</li>  
           <li>Meeting rooms</li>   
         </ul>
@@ -107,37 +136,6 @@
         </ul>
       </div>
     </div>
-
-    <form method="get" action="thanksyou.html">      
-      <h2>Join to Our Chamber</h2>
-      <fieldset class="user-information">
-        <legend>User Information</legend>
-        <label for="fname">First Name<span title="Field required">*</span><input type="text" id="fname" name="name" required class="text-fields"></label>
-        <label for="lname">Last Name<span title="Field required">*</span><input type="text" id="lname" required class="text-fields"></label>
-        <label for="business-position">Business Position <input type="text" id="business-position" class="text-fields"></label>
-        <label for="mail">Email<span title="Field required">*</span><input type="email" id="mail" required placeholder="e.g. example@gmail.com" class="text-fields"></label>
-        <label for="phone">Phone<span title="Field required">*</span><input type="tel" id="phone" required class="text-fields"></label>
-        <label for="business-name">Business Name<span title="Field required">*</span><input type="text" id="business-name" required class="text-fields"></label>
-      </fieldset>
-      
-      <fieldset class="membership">
-        <legend>Membership Level</legend>
-        <label for="non-profit"><input type="radio" id="non-profit" name="membership-level"> Non Profit Membership</label>
-        <label for="bronze-membership"><input type="radio" id="bronze-membership" name="membership-level"> Bronze Membership - $150 💵</label>
-        <label for="silver-membership"><input type="radio" id="silver-membership" name="membership-level"> Silver Membership - $300 💵</label>
-        <label for="gold-membership"><input type="radio" id="gold-membership" name="membership-level"> Gold Membership - $450 💵</label>  
-      </fieldset>
-
-      <fieldset class="business-description">
-        <legend>Business Description</legend>
-        <label for="business">Describe your business:
-          <textarea id="business" cols="30" rows="10"></textarea>
-        </label>
-      </fieldset>
-
-      <input type="submit" value="Register My Account" class="submitBtn">
-
-    </form>
 
   </main>
 
