@@ -518,6 +518,15 @@ form textarea {
   line-height: 1.4em;
 }
 
+.welcome-membership-message a {
+  text-decoration: none;
+  color: #292F36;
+}
+
+.welcome-membership-message a:hover {
+  text-decoration: underline;
+}
+
 /* end thank you page*/
 
 footer {
