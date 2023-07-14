@@ -451,13 +451,14 @@ form label, textarea {
 .chamber-benefits {
   margin-top: 1em;
   line-height: 2.5em;
-  list-style-position: inside;
+  list-style-type: none;
 }
 
 .chamber-benefits li {
-  font-size: 1.1em;
+  font-size: 1.2em;
   font-weight: 100;
   color: #FFFFFF;
+  text-align: center;
 }
 
 .membership-icons {

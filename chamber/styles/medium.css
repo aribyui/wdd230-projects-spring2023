@@ -138,6 +138,9 @@
   .chamber-benefits {
     padding-left: 0;
   }
+  /* .chamber-benefits li {
+    font-size: 1em;
+  } */
   .non-profit {
     grid-column: 1/2;
     grid-row: 1/2;
