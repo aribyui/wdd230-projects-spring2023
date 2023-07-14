@@ -116,6 +116,11 @@
     grid-row: 1/2;
     padding: 1em 2em;
   }    
+  form fieldset {
+    border: 1px solid #292F36;
+    border-radius: 5px;
+    padding: 1em 2em 2em 2em;  
+  }
   .memberships-container {
     grid-column: 1/2;
     grid-row: 1/2;
@@ -152,6 +157,7 @@
   #submitBtn {
     width: auto;
     padding: .75rem 2em;
+    /* margin-top: 1.5em; */
   }
   /* end join page */
   footer {
