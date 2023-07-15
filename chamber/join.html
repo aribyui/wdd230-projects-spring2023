@@ -64,12 +64,14 @@
       <!-- <hr id="join-hr"> -->
       <fieldset class="user-information">
         <legend>User Information</legend>
-        <label for="fname">First Name<span title="Field required">*</span><input type="text" id="fname" name="name" required class="text-fields"></label>
-        <label for="lname">Last Name<span title="Field required">*</span><input type="text" id="lname" required class="text-fields"></label>
-        <label for="business-position">Business Position <input type="text" id="business-position" class="text-fields"></label>
-        <label for="mail">Email<span title="Field required">*</span><input type="email" id="mail" required placeholder="e.g. example@gmail.com" class="text-fields"></label>
-        <label for="phone">Phone<span title="Field required">*</span><input type="tel" id="phone" required class="text-fields"></label>
-        <label for="business-name">Business Name<span title="Field required">*</span><input type="text" id="business-name" required class="text-fields"></label>
+        <label for="fname">First Name<span title="Field required">*</span><input type="text" id="fname" name="name" required></label>
+        <label for="lname">Last Name<span title="Field required">*</span><input type="text" id="lname" required></label>
+        <!-- expresión regular-caractéres alfabéticos, guiones, espacios con un mínimo de siete caracteres -->
+        <!-- https://bit.ly/3rym4rS -->
+        <label for="business-position">Business Position <input type="text" id="business-position" pattern="[a-zA-Z\-\s]{7,30}"></label>
+        <label for="mail">Email<span title="Field required">*</span><input type="email" id="mail" required placeholder="e.g. example@gmail.com"></label>
+        <label for="phone">Phone<span title="Field required">*</span><input type="tel" id="phone" required></label>
+        <label for="business-name">Business Name<span title="Field required">*</span><input type="text" id="business-name" required></label>
       </fieldset>
       
       <fieldset class="membership">
@@ -173,6 +175,5 @@
   
   <script src="scripts/toggle-menu.js"></script>
   <script src="scripts/current-date.js"></script>
-  <script src="scripts/windchill.js"></script>
 </body>
 </html>
