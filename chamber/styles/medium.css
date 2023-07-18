@@ -110,6 +110,17 @@
     grid-row: 6/7;
   }
   /* end discover page */
+  /* discovery page */
+  .menu {
+    grid-column: 1/4;
+  }
+  .cards {
+    grid-column: 1/4;
+  }
+  .list section {
+    flex-direction: row;
+  }
+  /* end discovery page */
   /* join page */
    form {
     grid-column: 2/4;
