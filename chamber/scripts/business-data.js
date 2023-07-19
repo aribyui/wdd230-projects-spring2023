@@ -16,16 +16,19 @@ const displayBusiness = (businessList) => {
     // Create elements to add to the div.cards element
     let card = document.createElement("section");
     let h2 = document.createElement("h2");
-    // let membership = document.createElement("p");
-    let address = document.createElement("p")
+    let hr = document.createElement("hr");
+    let membership = document.createElement("p");
+    let avenue = document.createElement("p")
+    let neighborhood = document.createElement("p");
     let phone = document.createElement("p");
     let url = document.createElement("a");
     let portrait = document.createElement("img");
 
     // Build the h2 content out to show the business name
-    h2.innerHTML= `${element.name}<br><p>${element.membershipLevel}<p>`;
-    // membership.textContent = `${element.membershipLevel}`;
-    address.innerHTML = `${element.address.avenue}<br>${element.address.neighborhood}`;
+    h2.textContent= `${element.name}`;
+    membership.textContent = `${element.membershipLevel}`;
+    avenue.textContent = `${element.address.avenue}`;
+    neighborhood.textContent = `${element.address.neighborhood}`;
     phone.textContent = `${element.phone}`;
     url.textContent = `${element.url}`;
 
@@ -33,24 +36,26 @@ const displayBusiness = (businessList) => {
     portrait.setAttribute("src", element.image);
     portrait.setAttribute("alt", `${element.name} logo`)
     portrait.setAttribute("loading", "lazy");
-    portrait.setAttribute("width", "160");
-    portrait.setAttribute("height", "160");
+    portrait.setAttribute("width", "180");
+    portrait.setAttribute("height", "180");
 
     // Adding 'class' attribute to some elements
     h2.setAttribute("class", "business-grid")
-    address.setAttribute("class", "address-grid")
+    hr.setAttribute("id", "hr-grid");
+    membership.setAttribute("class", "membership-grid")
+    avenue.setAttribute("class", "address-grid")
+    neighborhood.setAttribute("class", "neighborhood-grid")
     url.setAttribute("class", "url-grid");
-    phone.setAttribute("class", "phone-grid");
-    // membership.setAttribute("class", "membership-grid")
-
-    // Adding 'href' attribute to the 'a' elelment
-    url.setAttribute("href", `${element.url}`);    
+    url.setAttribute("href", `${element.url}`); 
+    phone.setAttribute("class", "phone-grid");  
 
     // Append the section(card) with the created elements
     card.appendChild(h2);
-    // card.appendChild(membership);
+    card.appendChild(hr);
+    card.appendChild(membership);
     card.appendChild(portrait);
-    card.appendChild(address);
+    card.appendChild(avenue);
+    card.appendChild(neighborhood);
     card.appendChild(phone);
     card.appendChild(url);
 

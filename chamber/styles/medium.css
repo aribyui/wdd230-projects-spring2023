@@ -110,43 +110,32 @@
     grid-row: 6/7;
   }
   /* end discover page */
+
   /* discovery page */
-  .menu {
-    grid-column: 1/4;
+  .buttons-container button {
+    /* grid-column: 1/4;
+    margin-bottom: 0; */
   }
+
+
+  /* .menu {
+    grid-column: 1/4;    
+  } */
   .cards {
     grid-column: 1/4;
   }
-  .grid section h2 > p {
+  .grid section h2 > p, .list section h2 > p {
     font-weight: lighter;
-    /* font-size: .667em; */
   }
   .list section {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
+    flex-direction: row;
+    object-fit: cover;
   }
-  .list section h2 > p {
-    font-weight: lighter;
-  }
-   .business-grid {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    width: auto;
-  }
-  .address-grid {
-    grid-column: 2/3;
-    grid-row: 1/2;
-  }
-  .phone-grid {
-    grid-column: 2/3;
-    grid-row: 2/3;
-  }
-  .url-grid {
-    grid-column: 3/4;
-    grid-row: 1/4;
-  }
+
+ 
+
   /* end discovery page */
+
   /* join page */
    form {
     grid-column: 2/4;
