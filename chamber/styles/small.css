@@ -276,6 +276,10 @@ main {
   /* padding-right: 4em; */
 }
 
+#hr-sunny {
+  margin: 1em 0;
+}
+
 .climate-prediction img {  
   width: 4em;
 }
