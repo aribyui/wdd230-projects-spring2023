@@ -111,27 +111,45 @@
   }
   /* end discover page */
 
-  /* discovery page */
-  .buttons-container button {
-    /* grid-column: 1/4;
-    margin-bottom: 0; */
-  }
-
-
-  /* .menu {
-    grid-column: 1/4;    
-  } */
+  /* discovery page */ 
   .cards {
-    grid-column: 1/4;
+    grid-column: 1/4;  
   }
   .grid section h2 > p, .list section h2 > p {
     font-weight: lighter;
   }
-  .list section {
-    flex-direction: row;
-    object-fit: cover;
+
+  /* .list section {
+    display: grid;
+  } */
+  .business-grid {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .address-grid {
+    grid-column: 2/3;
+    grid-row: 1/2;
   }
 
+  .membership-grid {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .neighborhood-grid {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .phone-grid {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+
+  /* .list #hr-grid {
+    display: none;
+  } */
+  .buttons-container {    
+    margin-bottom: 0;
+  }
  
 
   /* end discovery page */
