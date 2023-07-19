@@ -68,7 +68,7 @@ const displayBusiness = (businessList) => {
 // layout view selection
 const gridButton = document.querySelector("#grid");
 const listButton = document.querySelector("#list");
-const display = document.querySelector("article");
+const display = document.querySelector(".grid");
 
 // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
 gridButton.addEventListener("click", () => {
