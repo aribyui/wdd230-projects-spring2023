@@ -117,8 +117,34 @@
   .cards {
     grid-column: 1/4;
   }
+  .grid section h2 > p {
+    font-weight: lighter;
+    /* font-size: .667em; */
+  }
   .list section {
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+  }
+  .list section h2 > p {
+    font-weight: lighter;
+  }
+   .business-grid {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: auto;
+  }
+  .address-grid {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .phone-grid {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .url-grid {
+    grid-column: 3/4;
+    grid-row: 1/4;
   }
   /* end discovery page */
   /* join page */

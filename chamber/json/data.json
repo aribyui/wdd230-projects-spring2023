@@ -2,31 +2,43 @@
   "business": [
     {
       "name": "Sushi Express",
-      "address": "Polux 201, Contry Lux, 64860",
+      "address": {
+        "avenue": "Polux 201",
+        "neighborhood": "Contry Lux, 64860"
+      },
       "phone": 83577921,
-      "membershipLevel": "Silver",
+      "membershipLevel": "Gold",
       "url": "https://sushiexpress.com.mx/",
       "image": "images/sushi-express-400x400.jpg"
     },
     {
       "name": "Porrua",
-      "address": " Av Hacienda de Peñuelas 6771, Cumbres Las Palmas Residencial, 64610",
-      "phone": 8150302256,
+      "address": {
+        "avenue": "Av Hacienda de Peñuelas 6771",
+        "neighborhood": "Cumbres Las Palmas Residencial, 64610"
+      },
+      "phone": 83577921,
       "membershipLevel": "Silver",
       "url": "https://www.porrua.com.mx/",
       "image": "images/porrua-400x400.jpg"
     },
     {
       "name": "El Lindero",
-      "address": "Degollado #770 Sur, Obispado, 64060",
+      "address": {
+        "avenue": "Degollado #770 Sur",
+        "neighborhood": "Obispado, 64060"
+      },
       "phone": 8114155752,
-      "membershipLevel": "Silver",
+      "membershipLevel": "Gold",
       "url": "https://www.ellindero.com/",
       "image": "images/lindero-400x400.jpg"
     },
     {
       "name": "PCEL",
-      "address": "Av. Ignacio Morones Prieto 1101, Nuevo Repueblo, 64700",
+      "address": {
+        "avenue": "Av. Ignacio Morones Prieto 1101", 
+        "neighborhood": "Nuevo Repueblo, 64700"
+      },
       "phone": 8188656000,
       "membershipLevel": "Silver",
       "url": "https://www.pcel.com/",
@@ -34,15 +46,21 @@
     },
     {
       "name": "Mr Pampas Do Brasil",
-      "address": "Av. Eugenio Garza Sada 3515, Contry, 64860",
+      "address": {
+        "avenue": "Av. Eugenio Garza Sada 3515", 
+        "neighborhood": "Contry, 64860"
+      },
       "phone": 8112343313,
-      "membershipLevel": "Silver",
-      "url": "https://www.ellindero.com/",
+      "membershipLevel": "Gold",
+      "url": "https://www.mrpampas.com/",
       "image": "images/pampas-400x400.jpg"
     },
     {
       "name": "Steren",
-      "address": "Av. Francisco I. Madero 1467, Centro, 64000",
+      "address": {
+        "avenue": "Av. Francisco I. Madero 1467", 
+        "neighborhood": "Centro, 64000"
+      },
       "phone": 8183721371,
       "membershipLevel": "Silver",
       "url": "https://www.steren.com.mx/",
@@ -50,7 +68,10 @@
     },
     {
       "name": "Devlyn",
-      "address": " Av. Fundadores 101, Flor de Mayo, 66269 San Pedro Garza García, N.L.",
+      "address": {
+        "avenue": "Av. Fundadores 101", 
+        "neighborhood": "Flor de Mayo, 66269"
+      },
       "phone": 8181531100,
       "membershipLevel": "Silver",
       "url": "https://www.devlyn.com.mx/",
@@ -58,7 +79,10 @@
     },
     {
       "name": "El Lingote Resturante",
-      "address": "Av. Fundidora s/n Museo del Acero A.C, Obrera, 64010 Monterrey, N.L.",
+      "address": {
+        "avenue": "Av. Fundidora s/n Museo del Acero", 
+        "neighborhood": "Obrera, 64010"
+      },
       "phone": 8181917717,
       "membershipLevel": "Silver",
       "url": "https://www.ellingoterestaurante.com/",
@@ -66,9 +90,12 @@
     },
     {
       "name": "Imagen Dental",
-      "address": "Av. Dr. José Eleuterio González 3036, Mitras Nte., 64320 Monterrey, N.L.",
+      "address": {
+        "avenue": "Av. Dr. José Eleuterio González 3036", 
+        "neighborhood": "Mitras Nte., 64320"
+      },
       "phone": 8183707080,
-      "membershipLevel": "Silver",
+      "membershipLevel": "Gold",
       "url": "https://www.imagendental.com/",
       "image": "images/imagen-dental-400x400.jpg"
     }
