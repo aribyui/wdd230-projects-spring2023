@@ -193,6 +193,7 @@ main {
 #hero {
   position: relative;
   height: auto;
+  background-color: #292F36;
 }
 
 #hero img {
@@ -203,7 +204,7 @@ main {
 }
 
 #hero h2 {
-  color: #4ECDC4;
+  color: #FFFFFF;
   position: absolute;  
   top: 10px;
   left: 20px;
