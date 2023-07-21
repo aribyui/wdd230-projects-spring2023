@@ -166,14 +166,12 @@
   .buttons-container {    
     margin-bottom: 0;
   }
- 
-
   /* end discovery page */
 
   /* join page */
    form {
     grid-column: 2/4;
-    grid-row: 1/2;
+    grid-row: 2/3;
     padding: 1em 2em;
   }    
   form fieldset {
@@ -183,7 +181,7 @@
   }
   .memberships-container {
     grid-column: 1/2;
-    grid-row: 1/2;
+    grid-row: 2/3;
     margin-top: 0;
     display: grid;
     grid-template-columns: 1fr;
