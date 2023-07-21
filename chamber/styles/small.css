@@ -234,6 +234,11 @@ main {
   color: #292F36;
 }
 
+#hero button a:visited {
+  color: #292F36;
+  text-decoration: none;
+}
+
 #event {  
   display: flex;
   flex-direction: column;
