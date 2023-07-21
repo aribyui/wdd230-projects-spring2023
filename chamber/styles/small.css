@@ -229,6 +229,11 @@ main {
   border: 0;
 }
 
+#hero button a {
+  text-decoration: none;
+  color: #292F36;
+}
+
 #event {  
   display: flex;
   flex-direction: column;

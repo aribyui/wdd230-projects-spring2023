@@ -62,13 +62,18 @@
   }
   #join button {
     margin-bottom: 1.5em;
-    padding: 1em;
+    padding: .5em;
     width: 100%;
     border-radius: 10px;
     font-weight: 600;
     background-color: #292F36;
     color: #FFFFFF;
     border: 0;
+  }
+  #join button a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.5em;
   }
   #join {
     display: flex;
