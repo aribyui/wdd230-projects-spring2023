@@ -162,7 +162,6 @@ main {
   color: #292F36;
   border: 2px solid #292F36;
   margin-bottom: 1em;
-  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
 }
 
 #event, #weather, #news {
@@ -173,7 +172,6 @@ main {
   background-color: #e9e9e9; 
   border: 2px solid #292F36;  
   padding: 1em;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 } 
 
 .spotlights > div {
@@ -205,6 +203,7 @@ main {
 }
 
 #hero h2 {
+  color: #FFFFFF;
   position: absolute;  
   top: 10px;
   left: 20px;
