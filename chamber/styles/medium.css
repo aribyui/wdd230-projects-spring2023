@@ -16,7 +16,7 @@
     margin-right: 5em;
   }
   .navigation {
-    top: 7.6em;
+    top: 8.2em;
   }
   main {
     display: grid;
@@ -60,33 +60,40 @@
   #spotlight-1 img, #spotlight-2 img, #spotlight-3 img {
     width: 6em;
   }
-  #join button {
-    margin-bottom: 1.5em;
-    padding: .5em;
+  #hero h2 {
+    font-size: 2.4em;
+    top: 20px;
+    left: 20px;
+  }
+  #hero a {
+    font-size: 1.5em;
+    bottom: 20px;
+    right: 20px;
+  }
+  #join {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;    
+    text-align: center;   
+    padding: 1em;
+  }
+  #join a {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    padding: .3em .5em; 
     width: 100%;
     border-radius: 10px;
     font-weight: 600;
     background-color: #292F36;
     color: #FFFFFF;
     border: 0;
-  }
-  #join button a {
     text-decoration: none;
-    color: #FFFFFF;
-    font-size: 1.5em;
   }
   #join button a:visited {
     color: #FFFFFF;
     text-decoration: none;
-  }
-  #join {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; 
-    text-align: center;   
-    padding: 1em;
-  }
+  } 
   /* discover page */
   .information-container {
     margin-bottom: 0;
@@ -270,4 +277,8 @@
   #last-info #name {
     font-weight: bold;
   }  
+  #forecast-credit {
+
+    font-size: inherit;
+  }
 }

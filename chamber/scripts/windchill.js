@@ -31,7 +31,6 @@ function displayResults(weatherData) {
   const temp = weatherData.main.temp.toFixed(0);
   const speed = weatherData.wind.speed.toFixed(0);
   
- 
   weatherIcon.setAttribute("src", iconsrc);
   weatherIcon.setAttribute("alt", desc);
 

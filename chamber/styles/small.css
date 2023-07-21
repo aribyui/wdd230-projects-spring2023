@@ -136,11 +136,6 @@ header {
   padding: 1em; /* aqui */
 }
 
-.navigation li a:hover {
-  background-color: #4ECDC4;
-  color: #292F36;
-}
-
 #current-date {
   background-color: #4ECDC4;
   text-align: center;  
@@ -207,37 +202,33 @@ main {
   color: #FFFFFF;
   position: absolute;  
   top: 10px;
-  left: 20px;
+  left: 10px;
 }
 
-#h2-background {
+/* #h2-background {
   position: absolute;
   top: 20px;
   left: 20px;
   background-color: #292F36;
-}
+} */
 
-#hero button {
+#hero a {
   position: absolute;
   bottom: 10px;
-  right: 20px;
+  right: 10px;
   background-color: #4ECDC4;
   border-radius: 10px;
-  padding: .6em;  
+  padding: .3em .5em;  
   font-weight: 600; 
-  font-size: 1.2em;
+  font-size: 1.17em;
   border: 0;
-}
-
-#hero button a {
-  text-decoration: none;
-  color: #292F36;
-}
-
-#hero button a:visited {
-  color: #292F36;
   text-decoration: none;
 }
+
+#hero a:visited {
+  color: #292F36;
+  text-decoration: none;
+} 
 
 #event {  
   display: flex;
@@ -302,6 +293,14 @@ main {
 #weather hr {
   border: 1px solid #292F36;
 }
+
+.weather-paragraphs {
+  font-weight: 600;
+}
+
+/* #weather-icon {
+  width: 500px;
+} */
 
 #news {
   display: flex;
@@ -686,4 +685,30 @@ footer hr {
   margin-top: 1em;
   padding: .5em;
   font-family:'Rubik', Helvetica, sans-serif ;
+}
+
+#forecast-credit {
+  text-align: center;
+  background-color: #4ECDC4;
+  padding: .5em 0;
+  font-size: .8em;
+}
+
+#forecast-credit p {
+  color: #292F36;
+  
+}
+
+#forecast-credit a {
+  text-decoration: none;
+
+  color: #292F36;
+}
+
+#forecast-credit a:hover {
+  text-decoration: underline;
+}
+
+#forecast-credit a:visited {
+  color: #292F36;
 }

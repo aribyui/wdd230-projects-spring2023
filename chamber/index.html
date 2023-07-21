@@ -61,17 +61,12 @@
 
     <div id="hero" class="home-containers">
       <h2>Welcome to Nuevo León</h2>
-      <picture>  
-        
+      <picture>          
         <source media="(max-width: 519px)" srcset="images/nuevo-leon-small.jpg">
-        <source media="(max-width: 1039px)" srcset="images/nuevo-leon-medium.jpg">
-
-       <!--  <source media="(min-width: 62.5em)" srcset="images/wdd230-org-large.jpg">
-        <source media="(min-width: 32.5em)" srcset="images/wdd230-org-medium.jpg"> -->
-        
+        <source media="(max-width: 1039px)" srcset="images/nuevo-leon-medium.jpg">        
         <img src="images/nuevo-leon.jpg" alt="a woman and two men working at a desk"> 
-      </picture>      
-      <button><a href="join.html">Join the chamber</a></button>
+      </picture>    
+      <a href="join.html">Join the Chamber</a>
     </div>
 
     <div id="event" class="home-containers">
@@ -102,11 +97,11 @@
       </div>
       <hr id="hr-sunny">
       <div class="climate-prediction">        
-        <p>Wind Speed:</p>
+        <p class="weather-paragraphs">Wind Speed:</p>
         <p><span id="wind-speed"></span> mph</p>     
       </div>
       <div class="climate-prediction">        
-        <p>Wind Chill:</p>
+        <p class="weather-paragraphs">Wind Chill:</p>
         <p><span id="wind-chill"></span></p>        
       </div>
     </div>
@@ -127,7 +122,7 @@
     </div>
 
     <div id="join" class="home-containers">
-      <button><a href="join.html">Join Us!</a></button>
+      <a href="join.html">Join Us!</a>
       <p>
         Discover how to join the
         chamber of commerce and how
@@ -191,6 +186,10 @@
     <hr>
     <div id="last-details">
       <span id="last-info"></span>
+    </div>
+    <br>
+    <div id="forecast-credit">
+      <p>Weather forecast sponsored by: <a href="https://openweathermap.org/">OpenWeatherMap.org</a></p>       
     </div>
   </footer>
   
