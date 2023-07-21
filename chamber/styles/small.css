@@ -695,20 +695,19 @@ footer hr {
 
 #forecast-credit {
   text-align: center;
-  background-color: #4ECDC4;
-  padding: .5em 0;
+  /* background-color: #4ECDC4;
+  padding: .5em 0; */
   font-size: .8em;
 }
 
 #forecast-credit p {
-  color: #292F36;
+  color: #FFFFFF;
   
 }
 
 #forecast-credit a {
   text-decoration: none;
-
-  color: #292F36;
+  color: #FFFFFF;
 }
 
 #forecast-credit a:hover {
@@ -716,5 +715,5 @@ footer hr {
 }
 
 #forecast-credit a:visited {
-  color: #292F36;
+  color: #FFFFFF;
 }
