@@ -103,6 +103,9 @@
   #spotlight-1 img, #spotlight-2 img, #spotlight-3 img {
     width: 4em;
   }
+  #spotlight-3 img {
+    margin: 1em 0;
+  }
   #spotlight-3 hr {
     width: 100%;
     margin: .5em 0 .5em;

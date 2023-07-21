@@ -136,6 +136,11 @@ header {
   padding: 1em; /* aqui */
 }
 
+.navigation li a:hover {
+  background-color: #4ECDC4;
+  color: #292F36;
+}
+
 #current-date {
   background-color: #4ECDC4;
   text-align: center;  
@@ -319,6 +324,7 @@ main {
 
 #spotlight-1 img, #spotlight-2 img {
   width: 8em;
+  margin: 1em 0;
 }
 
 .slogan-message {
