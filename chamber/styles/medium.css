@@ -23,6 +23,9 @@
     grid-template-columns: 1fr 1fr 1fr;   
     gap: 1em;
   }
+  /* hr {
+    border: 1px solid #292F36;
+  } */
   .home-containers {
     margin: 0;
   }
@@ -98,9 +101,12 @@
   /* discover page */
   .information-container {
     margin-bottom: 0;
+    padding: 2em 2em;
+    /* border: 2px solid red; */
   }
   .information-container picture img {
     width: auto;    
+    margin: 2em auto 0 auto;
   }
   #demographic {
     grid-column: 1/4;
@@ -164,7 +170,7 @@
   /* join page */
    form {
     grid-column: 2/4;
-    grid-row: 2/3;
+    grid-row: 1/2;
     padding: 1em 2em;
   }    
   form fieldset {
@@ -174,7 +180,7 @@
   }
   .memberships-container {
     grid-column: 1/2;
-    grid-row: 2/3;
+    grid-row: 1/2;
     margin-top: 0;
     display: grid;
     grid-template-columns: 1fr;
@@ -183,9 +189,9 @@
   .memberships-container > div {
     margin-bottom: 0;  
   }
-  .memberships-container hr {
+  /* .memberships-container hr {
     width: 100%;
-  }
+  } */
   .chamber-benefits {
     padding-left: 0;
   }
@@ -252,6 +258,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  .contact-container hr {
+    border: 1px solid #292F36;
   }
   /* end contact page */
 
