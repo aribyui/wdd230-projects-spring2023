@@ -142,12 +142,13 @@
     transform: scale(1.02);
   }   
   /* end discover page */
+
   /* join page */
   .user-information input, form textarea {
     width: 50%;    
   }
-
   /* end join page */
+  
   footer {
     text-align: left;
     padding-top: 20px;

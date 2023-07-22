@@ -629,28 +629,40 @@ form textarea {
 /* end thank you page*/
 
 /* contact page */
+/* .contact-hero-image {
+  position: relative;
+  height: auto;
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.contact-hero-image img {
+  width: 100%;
+  height: 100%;
+} */
+
 .contact-container {
   margin-top: 1em;
 }
 
 .contact-form {
-  margin-bottom: 1em;
+  margin-bottom: 1em; 
 }
 
-.contact-container form label {
+.contact-form form label {
   display: block;
   margin-top: 2em;
 }
 
-.contact-container form label input,textarea {
+.contact-form form label input,textarea {
   width: 100%;
   margin-top: .2em;
   padding: .75em
 }
 
 #contact-container-button {
-  background-color: #4ECDC4;
- 
+  background-color: #4ECDC4; 
+  border: 2px solid #292F36;
   border-radius: 5px;
   color: #292F36;
   font-weight: 700;
@@ -658,23 +670,17 @@ form textarea {
   width: 100%;
 }
 
-.contact-container textarea {
+.contact-form textarea {
   margin-bottom: 1em;
   width: 100%;
 }
 
-.contact-container input:required {
+.contact-form  input:required, .contact-form textarea:required {
   border: 2px solid #FF6B6B;
 }
 
-.contact-container textarea:required {
-  border: 2px solid #FF6B6B;
-}
-
-.contact-container iframe {
-  width: 100%;
-  height: 30vh;
-  display: block;
+.contact-form  input:valid, .contact-form textarea:valid {
+  border: 2px solid #4ECDC4;
 }
 
 .additional-information {
@@ -683,15 +689,26 @@ form textarea {
   padding: 1em;
 }
 
-.additional-information hr {
+.contact-container hr, .additional-information hr {
   margin: 1em 0;
 }
 
-.additional-information a img {
+.additional-information div a img {
   height: 25px;
   margin-right: .2em;
 }
 
+  .additional-information #gps-frame {
+    border: 2px solid #292F36;
+    position: relative;
+    height: 100%;
+  }
+  .additional-information #gps-frame iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
 /* end contact page */
 
 footer {

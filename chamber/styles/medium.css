@@ -135,10 +135,6 @@
   .grid section h2 > p, .list section h2 > p {
     font-weight: lighter;
   }
-
-  /* .list section {
-    display: grid;
-  } */
   .business-grid {
     grid-column: 1/2;
     grid-row: 1/2;
@@ -160,10 +156,6 @@
     grid-column: 2/3;
     grid-row: 3/4;
   }
-
-  /* .list #hr-grid {
-    display: none;
-  } */
   .buttons-container {    
     margin-bottom: 0;
   }
@@ -197,9 +189,6 @@
   .chamber-benefits {
     padding-left: 0;
   }
-  /* .chamber-benefits li {
-    font-size: 1em;
-  } */
   .non-profit {
     grid-column: 1/2;
     grid-row: 1/2;
@@ -219,17 +208,52 @@
   #submitBtn {
     width: auto;
     padding: .75rem 2em;
-    /* margin-top: 1.5em; */
   }
   /* end join page */
 
   /* */
   .welcome-membership-message  {
     grid-column: 1/4;
-    grid-row: 1/2;
- 
+    grid-row: 1/2; 
   }
   /* */
+
+  /* contact page */ 
+  /* .contact-hero-image {
+    grid-column: 1/4;
+    grid-row: 1/2;
+  } */
+
+  .contact-container {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    margin-top: 0;
+  }
+  .contact-form {
+    margin-bottom: 0;
+  }
+  .contact-form form {
+    margin-bottom: 0;
+    grid-column: 1/2;
+    grid-row: 1/2;   
+    height: 100%;
+    padding: 2em 4em;
+  }
+  #contact-container-button {
+    width: 50%;
+  }
+  .additional-information {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 2em 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /* end contact page */
 
   footer {
     text-align: left;
