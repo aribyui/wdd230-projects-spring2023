@@ -251,7 +251,7 @@
     grid-column: 1/2;
     grid-row: 1/2;   
     height: 100%;
-    padding: 2em 4em;
+    padding: 1em;
   }
   #contact-container-button {
     width: 50%;
@@ -259,7 +259,7 @@
   .additional-information {
     grid-column: 2/3;
     grid-row: 1/2;
-    padding: 2em 4em;
+    padding: 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;

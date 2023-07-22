@@ -149,6 +149,15 @@
   }
   /* end join page */
   
+  /* contact page */
+  .contact-form form {
+    padding: 2em 4em;
+  }
+  .additional-information {
+    padding: 2em 4em;
+  }
+  /* end contact page */
+
   footer {
     text-align: left;
     padding-top: 20px;
