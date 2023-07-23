@@ -213,22 +213,22 @@ main {
 #hero a {
   position: absolute;
   bottom: 10px;
-  right: 10px;
-  background-color: #4ECDC4; 
-  color: #292F36;
+  right: 10px; 
   border-radius: 10px;
   padding: .3em .5em;  
   font-weight: 600; 
   font-size: 1.17em;
   border: 0;
   text-decoration: none;
-  border: 2px solid #292F36;
-}
-
-#hero a:hover {
   background-color: #292F36;
   border: 2px solid #4ECDC4;
   color: #FFFFFF;
+}
+
+#hero a:hover {
+  background-color: #4ECDC4; 
+  border: 2px solid #292F36;
+  color: #292F36;
 }
 
 #hero a:visited {
